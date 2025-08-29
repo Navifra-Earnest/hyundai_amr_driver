@@ -1,0 +1,58 @@
+[0.008s] Invoking command in '/home/earnest/ros2_ws/build/motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/earnest/ros2_ws/build/motor_driver -- -j18 -l18
+[0.033s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.056s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.128s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.154s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.161s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.171s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.181s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.230s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.231s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.286s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.340s] -- Found rclcpp_lifecycle: 28.1.11 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[0.365s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.375s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.382s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.592s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.742s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.805s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.806s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.037s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.061s] -- Configuring done (1.0s)
+[1.098s] -- Generating done (0.0s)
+[1.107s] -- Build files have been written to: /home/earnest/ros2_ws/build/motor_driver
+[1.142s] [  1%] Built target motor_driver__rosidl_generator_type_description
+[1.154s] [  1%] Built target ament_cmake_python_copy_motor_driver
+[1.164s] [  3%] Built target motor_driver__cpp
+[1.166s] [ 22%] Built target motor_driver__rosidl_generator_c
+[1.184s] [ 31%] Built target motor_driver__rosidl_typesupport_introspection_c
+[1.185s] [ 39%] Built target motor_driver__rosidl_typesupport_c
+[1.185s] [ 48%] Built target motor_driver__rosidl_typesupport_fastrtps_cpp
+[1.188s] [ 56%] Built target motor_driver__rosidl_typesupport_introspection_cpp
+[1.189s] [ 65%] Built target motor_driver__rosidl_typesupport_cpp
+[1.193s] [ 74%] Built target motor_driver__rosidl_typesupport_fastrtps_c
+[1.211s] [ 74%] Built target motor_driver
+[1.212s] [ 75%] [32mBuilding CXX object CMakeFiles/motor_driver_node.dir/src/motor_controller.cpp.o[0m
+[1.213s] [ 77%] [32mBuilding CXX object CMakeFiles/motor_driver_node.dir/src/motor_driver_node.cpp.o[0m
+[1.213s] [ 79%] [32mBuilding CXX object CMakeFiles/motor_driver_node.dir/src/can_interface.cpp.o[0m
+[1.236s] [ 81%] Built target motor_driver__py
+[1.270s] [ 87%] Built target motor_driver__rosidl_generator_py
+[1.294s] [ 91%] Built target motor_driver_s__rosidl_typesupport_c
+[1.295s] [ 98%] Built target motor_driver_s__rosidl_typesupport_fastrtps_c
+[1.296s] [ 98%] Built target motor_driver_s__rosidl_typesupport_introspection_c
+[1.314s] running egg_info
+[1.328s] writing motor_driver.egg-info/PKG-INFO
+[1.328s] writing dependency_links to motor_driver.egg-info/dependency_links.txt
+[1.328s] writing top-level names to motor_driver.egg-info/top_level.txt
+[1.365s] reading manifest file 'motor_driver.egg-info/SOURCES.txt'
+[1.365s] writing manifest file 'motor_driver.egg-info/SOURCES.txt'
+[1.392s] [ 98%] Built target ament_cmake_python_build_motor_driver_egg
+[2.828s] [01m[K/home/earnest/ros2_ws/src/motor_driver/src/motor_driver_node.cpp:[m[K In lambda function:
+[2.828s] [01m[K/home/earnest/ros2_ws/src/motor_driver/src/motor_driver_node.cpp:41:76:[m[K [01;31m[Kerror: [m[K‘[01m[Klifecycle_msgs::msg::State[m[K’ has not been declared
+[2.829s]    41 |  if (this->get_current_state().id() == lifecycle_msgs::msg::[01;31m[KState[m[K::PRIMARY_STATE_ACTIVE) {
+[2.829s]       |                                                             [01;31m[K^~~~~[m[K
+[2.829s] 
+[4.521s] gmake[2]: *** [CMakeFiles/motor_driver_node.dir/build.make:76: CMakeFiles/motor_driver_node.dir/src/motor_driver_node.cpp.o] Error 1
+[4.522s] gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/motor_driver_node.dir/all] Error 2
+[4.522s] gmake: *** [Makefile:146: all] Error 2
+[4.526s] Invoked command in '/home/earnest/ros2_ws/build/motor_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/earnest/ros2_ws/build/motor_driver -- -j18 -l18

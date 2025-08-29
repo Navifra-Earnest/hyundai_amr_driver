@@ -1,0 +1,56 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 28.1.11 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/earnest/ros2_ws/build/motor_driver
+[  1%] Built target motor_driver__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_copy_motor_driver
+[  3%] Built target motor_driver__cpp
+[ 22%] Built target motor_driver__rosidl_generator_c
+[ 31%] Built target motor_driver__rosidl_typesupport_introspection_c
+[ 39%] Built target motor_driver__rosidl_typesupport_c
+[ 48%] Built target motor_driver__rosidl_typesupport_fastrtps_cpp
+[ 56%] Built target motor_driver__rosidl_typesupport_introspection_cpp
+[ 65%] Built target motor_driver__rosidl_typesupport_cpp
+[ 74%] Built target motor_driver__rosidl_typesupport_fastrtps_c
+[ 74%] Built target motor_driver
+[ 75%] [32mBuilding CXX object CMakeFiles/motor_driver_node.dir/src/motor_controller.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/motor_driver_node.dir/src/motor_driver_node.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/motor_driver_node.dir/src/can_interface.cpp.o[0m
+[ 81%] Built target motor_driver__py
+[ 87%] Built target motor_driver__rosidl_generator_py
+[ 91%] Built target motor_driver_s__rosidl_typesupport_c
+[ 98%] Built target motor_driver_s__rosidl_typesupport_fastrtps_c
+[ 98%] Built target motor_driver_s__rosidl_typesupport_introspection_c
+running egg_info
+writing motor_driver.egg-info/PKG-INFO
+writing dependency_links to motor_driver.egg-info/dependency_links.txt
+writing top-level names to motor_driver.egg-info/top_level.txt
+reading manifest file 'motor_driver.egg-info/SOURCES.txt'
+writing manifest file 'motor_driver.egg-info/SOURCES.txt'
+[ 98%] Built target ament_cmake_python_build_motor_driver_egg
+[01m[K/home/earnest/ros2_ws/src/motor_driver/src/motor_driver_node.cpp:[m[K In lambda function:
+[01m[K/home/earnest/ros2_ws/src/motor_driver/src/motor_driver_node.cpp:41:76:[m[K [01;31m[Kerror: [m[K‘[01m[Klifecycle_msgs::msg::State[m[K’ has not been declared
+   41 |  if (this->get_current_state().id() == lifecycle_msgs::msg::[01;31m[KState[m[K::PRIMARY_STATE_ACTIVE) {
+      |                                                             [01;31m[K^~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/motor_driver_node.dir/build.make:76: CMakeFiles/motor_driver_node.dir/src/motor_driver_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/motor_driver_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-caaee900313a69dfc931.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "motor_driver__py",
+					"jsonFile" : "directory-motor_driver__py-0e2439e1df706b3821ea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/earnest/ros2_ws/build/motor_driver/motor_driver__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "motor_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_motor_driver_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_motor_driver_egg-1968826ddb76a7c46dfe.json",
+					"name" : "ament_cmake_python_build_motor_driver_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_motor_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_motor_driver-412f742d95cf7f7227a2.json",
+					"name" : "ament_cmake_python_copy_motor_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_driver-e07a4ce0103783f3dda2.json",
+					"name" : "motor_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_driver__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_driver__cpp-ae70600594f781fe2737.json",
+					"name" : "motor_driver__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "motor_driver__py::@054136dafd14330c433e",
+					"jsonFile" : "target-motor_driver__py-8168187dd7dcfc92fa69.json",
+					"name" : "motor_driver__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_driver__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_driver__rosidl_generator_c-ab2d3cea5bec0ee54209.json",
+					"name" : "motor_driver__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_driver__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_driver__rosidl_generator_py-207eaf50851f05283e25.json",
+					"name" : "motor_driver__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_driver__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_driver__rosidl_generator_type_description-629e0b9e5f4ccf1bed42.json",
+					"name" : "motor_driver__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_driver__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_driver__rosidl_typesupport_c-dc68426f83c7662d1eb0.json",
+					"name" : "motor_driver__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_driver__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_driver__rosidl_typesupport_cpp-89f86289fdfc8a6d4554.json",
+					"name" : "motor_driver__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_driver__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_driver__rosidl_typesupport_fastrtps_c-51f7dbf20c74691c553e.json",
+					"name" : "motor_driver__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_driver__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_driver__rosidl_typesupport_fastrtps_cpp-220bc0c5a29d53a911fa.json",
+					"name" : "motor_driver__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_driver__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_driver__rosidl_typesupport_introspection_c-cf77ab1bab1725b0502b.json",
+					"name" : "motor_driver__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_driver__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_driver__rosidl_typesupport_introspection_cpp-5bbb57b028e8b0ce8e2f.json",
+					"name" : "motor_driver__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_driver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_driver_node-e8645b77eb3b86ae87e2.json",
+					"name" : "motor_driver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_driver_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_driver_s__rosidl_typesupport_c-e5a91e6f997bfb6564a3.json",
+					"name" : "motor_driver_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_driver_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_driver_s__rosidl_typesupport_fastrtps_c-bd714b7566c609d4aa24.json",
+					"name" : "motor_driver_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_driver_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_driver_s__rosidl_typesupport_introspection_c-288def00b96f95c2bb14.json",
+					"name" : "motor_driver_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_driver_uninstall-051ab355e5adaa1e734b.json",
+					"name" : "motor_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2360453aa42978a2e0d2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/earnest/ros2_ws/build/motor_driver",
+		"source" : "/home/earnest/ros2_ws/src/motor_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

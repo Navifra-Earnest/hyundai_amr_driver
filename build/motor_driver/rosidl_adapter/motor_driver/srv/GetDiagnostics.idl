@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from motor_driver/srv/GetDiagnostics.srv
+// generated code does not contain a copyright notice
+
+#include "motor_driver/msg/MotorAlarm.idl"
+#include "motor_driver/msg/MotorStatus.idl"
+
+module motor_driver {
+  module srv {
+    @verbatim (language="comment", text=
+      "motor_driver/srv/GetDiagnostics.srv")
+    struct GetDiagnostics_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "--- Response ---")
+    struct GetDiagnostics_Response {
+      @verbatim (language="comment", text=
+        "요청 성공 여부")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "현재 모터 상태")
+      motor_driver::msg::MotorStatus status;
+
+      @verbatim (language="comment", text=
+        "현재 발생한 알람 목록")
+      sequence<motor_driver::msg::MotorAlarm> alarms;
+    };
+  };
+};

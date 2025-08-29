@@ -1,0 +1,6 @@
+msg/MotorAlarm.idl
+msg/MotorAlarm.msg
+msg/MotorStatus.idl
+msg/MotorStatus.msg
+srv/GetDiagnostics.idl
+srv/GetDiagnostics.srv

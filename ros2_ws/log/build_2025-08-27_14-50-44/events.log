@@ -1,0 +1,443 @@
+[0.000000] (-) TimerEvent: {}
+[0.000332] (motor_driver) JobQueued: {'identifier': 'motor_driver', 'dependencies': OrderedDict()}
+[0.000707] (motor_driver) JobStarted: {'identifier': 'motor_driver'}
+[0.006712] (motor_driver) JobProgress: {'identifier': 'motor_driver', 'progress': 'cmake'}
+[0.007188] (motor_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/earnest/ros2_ws/src/motor_driver', '-DCMAKE_INSTALL_PREFIX=/home/earnest/ros2_ws/install/motor_driver'], 'cwd': '/home/earnest/ros2_ws/build/motor_driver', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/4534-0-earnest_TIME41911', 'USER': 'earnest', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/earnest/ros2_ws/install/motor_driver/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/earnest', 'HOME': '/home/earnest', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ZSH': '/home/earnest/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '4023', 'SYSTEMD_EXEC_PID': '4534', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '10570', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/earnest/ros2_ws/install', 'LOGNAME': 'earnest', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '9:29317', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'earnest', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/earnest:@/tmp/.ICE-unix/4485,unix/earnest:/tmp/.ICE-unix/4485', 'INVOCATION_ID': '8347f171f1db41e88e7310d25a8237d5', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.97RRB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/earnest/ros2_ws/install/motor_driver:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:b00c58bc-b813-4837-8c68-85b89d2ea49f', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'ROS_MASTER_URI': 'http://localhost:11311', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/earnest/ros2_ws/build/motor_driver', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'ROS_HOSTNAME': 'localhost', 'PYTHONPATH': '/home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/earnest/ros2_ws/install/motor_driver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.055147] (motor_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.097529] (motor_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.099929] (-) TimerEvent: {}
+[0.113714] (motor_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.179447] (motor_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.185002] (motor_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.185382] (motor_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.185597] (motor_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.195972] (motor_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200005] (-) TimerEvent: {}
+[0.276905] (motor_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.282666] (motor_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.282986] (motor_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.283141] (motor_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.285182] (motor_driver) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.300078] (-) TimerEvent: {}
+[0.400323] (-) TimerEvent: {}
+[0.416794] (motor_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.492497] (motor_driver) StdoutLine: {'line': b'-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.500390] (-) TimerEvent: {}
+[0.523023] (motor_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.532743] (motor_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.543982] (motor_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.556514] (motor_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600487] (-) TimerEvent: {}
+[0.611452] (motor_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.613774] (motor_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700653] (-) TimerEvent: {}
+[0.701528] (motor_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.721179] (motor_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.740577] (motor_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.792283] (motor_driver) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.800709] (-) TimerEvent: {}
+[0.802301] (motor_driver) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.812837] (motor_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.900862] (-) TimerEvent: {}
+[0.906228] (motor_driver) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread \n'}
+[1.000959] (-) TimerEvent: {}
+[1.101223] (-) TimerEvent: {}
+[1.201524] (-) TimerEvent: {}
+[1.301840] (-) TimerEvent: {}
+[1.343118] (motor_driver) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.401943] (-) TimerEvent: {}
+[1.502187] (-) TimerEvent: {}
+[1.602455] (-) TimerEvent: {}
+[1.702733] (-) TimerEvent: {}
+[1.803011] (-) TimerEvent: {}
+[1.903270] (-) TimerEvent: {}
+[1.918964] (motor_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.003368] (-) TimerEvent: {}
+[2.103624] (-) TimerEvent: {}
+[2.150343] (motor_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.152678] (motor_driver) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.203718] (-) TimerEvent: {}
+[2.257746] (motor_driver) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[2.303822] (-) TimerEvent: {}
+[2.404016] (-) TimerEvent: {}
+[2.504246] (-) TimerEvent: {}
+[2.590551] (motor_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.604310] (-) TimerEvent: {}
+[2.627547] (motor_driver) StdoutLine: {'line': b'-- Configuring done (2.6s)\n'}
+[2.654177] (motor_driver) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.662443] (motor_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/earnest/ros2_ws/build/motor_driver\n'}
+[2.673650] (motor_driver) CommandEnded: {'returncode': 0}
+[2.675850] (motor_driver) JobProgress: {'identifier': 'motor_driver', 'progress': 'build'}
+[2.675881] (motor_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/earnest/ros2_ws/build/motor_driver', '--', '-j18', '-l18'], 'cwd': '/home/earnest/ros2_ws/build/motor_driver', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/4534-0-earnest_TIME41911', 'USER': 'earnest', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/earnest/ros2_ws/install/motor_driver/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/earnest', 'HOME': '/home/earnest', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ZSH': '/home/earnest/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '4023', 'SYSTEMD_EXEC_PID': '4534', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '10570', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/earnest/ros2_ws/install', 'LOGNAME': 'earnest', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '9:29317', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'earnest', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/earnest:@/tmp/.ICE-unix/4485,unix/earnest:/tmp/.ICE-unix/4485', 'INVOCATION_ID': '8347f171f1db41e88e7310d25a8237d5', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.97RRB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/earnest/ros2_ws/install/motor_driver:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:b00c58bc-b813-4837-8c68-85b89d2ea49f', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'ROS_MASTER_URI': 'http://localhost:11311', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/earnest/ros2_ws/build/motor_driver', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'ROS_HOSTNAME': 'localhost', 'PYTHONPATH': '/home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/earnest/ros2_ws/install/motor_driver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.704447] (-) TimerEvent: {}
+[2.722539] (motor_driver) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[2.730786] (motor_driver) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_motor_driver\n'}
+[2.804548] (-) TimerEvent: {}
+[2.875319] (motor_driver) StdoutLine: {'line': b'running egg_info\n'}
+[2.875862] (motor_driver) StdoutLine: {'line': b'creating motor_driver.egg-info\n'}
+[2.886491] (motor_driver) StdoutLine: {'line': b'writing motor_driver.egg-info/PKG-INFO\n'}
+[2.886585] (motor_driver) StdoutLine: {'line': b'writing dependency_links to motor_driver.egg-info/dependency_links.txt\n'}
+[2.886639] (motor_driver) StdoutLine: {'line': b'writing top-level names to motor_driver.egg-info/top_level.txt\n'}
+[2.886698] (motor_driver) StdoutLine: {'line': b"writing manifest file 'motor_driver.egg-info/SOURCES.txt'\n"}
+[2.904613] (-) TimerEvent: {}
+[2.919498] (motor_driver) StdoutLine: {'line': b"reading manifest file 'motor_driver.egg-info/SOURCES.txt'\n"}
+[2.919663] (motor_driver) StdoutLine: {'line': b"writing manifest file 'motor_driver.egg-info/SOURCES.txt'\n"}
+[2.940514] (motor_driver) StdoutLine: {'line': b'[  1%] Built target motor_driver__rosidl_generator_type_description\n'}
+[2.943124] (motor_driver) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_motor_driver_egg\n'}
+[2.950991] (motor_driver) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.961422] (motor_driver) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.004719] (-) TimerEvent: {}
+[3.104972] (-) TimerEvent: {}
+[3.205276] (-) TimerEvent: {}
+[3.259247] (motor_driver) StdoutLine: {'line': b'[  5%] Built target motor_driver__cpp\n'}
+[3.296103] (motor_driver) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_c.dir/rosidl_generator_c/motor_driver/msg/detail/motor_status__functions.c.o\x1b[0m\n'}
+[3.296310] (motor_driver) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_c.dir/rosidl_generator_c/motor_driver/srv/detail/get_diagnostics__functions.c.o\x1b[0m\n'}
+[3.296376] (motor_driver) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_c.dir/rosidl_generator_c/motor_driver/msg/detail/motor_status__description.c.o\x1b[0m\n'}
+[3.296430] (motor_driver) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_c.dir/rosidl_generator_c/motor_driver/msg/detail/motor_alarm__functions.c.o\x1b[0m\n'}
+[3.298000] (motor_driver) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_c.dir/rosidl_generator_c/motor_driver/msg/detail/motor_alarm__type_support.c.o\x1b[0m\n'}
+[3.298223] (motor_driver) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_c.dir/rosidl_generator_c/motor_driver/msg/detail/motor_status__type_support.c.o\x1b[0m\n'}
+[3.298719] (motor_driver) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_c.dir/rosidl_generator_c/motor_driver/msg/detail/motor_alarm__description.c.o\x1b[0m\n'}
+[3.298904] (motor_driver) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_c.dir/rosidl_generator_c/motor_driver/srv/detail/get_diagnostics__type_support.c.o\x1b[0m\n'}
+[3.299066] (motor_driver) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_c.dir/rosidl_generator_c/motor_driver/srv/detail/get_diagnostics__description.c.o\x1b[0m\n'}
+[3.305396] (-) TimerEvent: {}
+[3.359957] (motor_driver) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmotor_driver__rosidl_generator_c.so\x1b[0m\n'}
+[3.390150] (motor_driver) StdoutLine: {'line': b'[ 22%] Built target motor_driver__rosidl_generator_c\n'}
+[3.398252] (motor_driver) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.398459] (motor_driver) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.399977] (motor_driver) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.400242] (motor_driver) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.400352] (motor_driver) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.401453] (motor_driver) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.405472] (-) TimerEvent: {}
+[3.505726] (-) TimerEvent: {}
+[3.606217] (-) TimerEvent: {}
+[3.642896] (motor_driver) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_driver/msg/motor_status__type_support.cpp.o\x1b[0m\n'}
+[3.645547] (motor_driver) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_driver/msg/motor_alarm__type_support.cpp.o\x1b[0m\n'}
+[3.645775] (motor_driver) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_driver/srv/get_diagnostics__type_support.cpp.o\x1b[0m\n'}
+[3.676115] (motor_driver) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_driver/srv/detail/get_diagnostics__type_support.cpp.o\x1b[0m\n'}
+[3.676339] (motor_driver) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_driver/msg/detail/motor_status__type_support.cpp.o\x1b[0m\n'}
+[3.676418] (motor_driver) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_driver/msg/detail/motor_alarm__type_support.cpp.o\x1b[0m\n'}
+[3.683318] (motor_driver) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_driver__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.691238] (motor_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_driver/msg/detail/motor_status__type_support.c.o\x1b[0m\n'}
+[3.691430] (motor_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_driver/srv/detail/get_diagnostics__type_support.c.o\x1b[0m\n'}
+[3.691513] (motor_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_driver/msg/detail/motor_alarm__type_support.c.o\x1b[0m\n'}
+[3.706333] (-) TimerEvent: {}
+[3.713502] (motor_driver) StdoutLine: {'line': b'[ 50%] Built target motor_driver__rosidl_typesupport_c\n'}
+[3.745784] (motor_driver) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libmotor_driver__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.777132] (motor_driver) StdoutLine: {'line': b'[ 51%] Built target motor_driver__rosidl_typesupport_introspection_c\n'}
+[3.802207] (motor_driver) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_driver/msg/motor_status__type_support.cpp.o\x1b[0m\n'}
+[3.802418] (motor_driver) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_driver/msg/motor_alarm__type_support.cpp.o\x1b[0m\n'}
+[3.802504] (motor_driver) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_driver/srv/get_diagnostics__type_support.cpp.o\x1b[0m\n'}
+[3.806436] (-) TimerEvent: {}
+[3.814480] (motor_driver) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_driver/msg/detail/motor_status__type_support_c.cpp.o\x1b[0m\n'}
+[3.817256] (motor_driver) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_driver/msg/detail/motor_alarm__type_support_c.cpp.o\x1b[0m\n'}
+[3.817454] (motor_driver) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_driver/srv/detail/get_diagnostics__type_support_c.cpp.o\x1b[0m\n'}
+[3.896705] (motor_driver) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_driver/msg/detail/dds_fastrtps/motor_status__type_support.cpp.o\x1b[0m\n'}
+[3.896941] (motor_driver) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_driver/msg/detail/dds_fastrtps/motor_alarm__type_support.cpp.o\x1b[0m\n'}
+[3.898119] (motor_driver) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_driver/srv/detail/dds_fastrtps/get_diagnostics__type_support.cpp.o\x1b[0m\n'}
+[3.906562] (-) TimerEvent: {}
+[4.006838] (-) TimerEvent: {}
+[4.086108] (motor_driver) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_driver__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.106968] (-) TimerEvent: {}
+[4.160422] (motor_driver) StdoutLine: {'line': b'[ 68%] Built target motor_driver__rosidl_typesupport_introspection_cpp\n'}
+[4.207127] (-) TimerEvent: {}
+[4.266849] (motor_driver) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_driver__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.307266] (-) TimerEvent: {}
+[4.329422] (motor_driver) StdoutLine: {'line': b'[ 70%] Built target motor_driver__rosidl_typesupport_cpp\n'}
+[4.345501] (motor_driver) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver_node.dir/src/motor_driver_node.cpp.o\x1b[0m\n'}
+[4.348392] (motor_driver) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver_node.dir/src/motor_controller.cpp.o\x1b[0m\n'}
+[4.348599] (motor_driver) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_driver__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.348669] (motor_driver) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver_node.dir/src/can_interface.cpp.o\x1b[0m\n'}
+[4.357657] (motor_driver) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_driver__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.407381] (-) TimerEvent: {}
+[4.407627] (motor_driver) StdoutLine: {'line': b'[ 79%] Built target motor_driver__rosidl_typesupport_fastrtps_c\n'}
+[4.419440] (motor_driver) StdoutLine: {'line': b'[ 79%] Built target motor_driver__rosidl_typesupport_fastrtps_cpp\n'}
+[4.437142] (motor_driver) StdoutLine: {'line': b'[ 79%] Built target motor_driver\n'}
+[4.461302] (motor_driver) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.507508] (-) TimerEvent: {}
+[4.607823] (-) TimerEvent: {}
+[4.708120] (-) TimerEvent: {}
+[4.808396] (-) TimerEvent: {}
+[4.908739] (-) TimerEvent: {}
+[4.926652] (motor_driver) StdoutLine: {'line': b'[ 81%] Built target motor_driver__py\n'}
+[4.946479] (motor_driver) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_py.dir/rosidl_generator_py/motor_driver/msg/_motor_status_s.c.o\x1b[0m\n'}
+[4.947801] (motor_driver) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_py.dir/rosidl_generator_py/motor_driver/msg/_motor_alarm_s.c.o\x1b[0m\n'}
+[4.948223] (motor_driver) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_py.dir/rosidl_generator_py/motor_driver/srv/_get_diagnostics_s.c.o\x1b[0m\n'}
+[5.008916] (-) TimerEvent: {}
+[5.077181] (motor_driver) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library libmotor_driver__rosidl_generator_py.so\x1b[0m\n'}
+[5.109027] (-) TimerEvent: {}
+[5.125978] (motor_driver) StdoutLine: {'line': b'[ 87%] Built target motor_driver__rosidl_generator_py\n'}
+[5.145295] (motor_driver) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/motor_driver_s__rosidl_typesupport_c.dir/rosidl_generator_py/motor_driver/_motor_driver_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.148052] (motor_driver) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/motor_driver_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/motor_driver/_motor_driver_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.148237] (motor_driver) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/motor_driver_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/motor_driver/_motor_driver_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.209174] (-) TimerEvent: {}
+[5.220732] (motor_driver) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/motor_driver/motor_driver_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.225983] (motor_driver) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/motor_driver/motor_driver_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.229630] (motor_driver) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/motor_driver/motor_driver_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.248382] (motor_driver) StdoutLine: {'line': b'[ 98%] Built target motor_driver_s__rosidl_typesupport_c\n'}
+[5.256369] (motor_driver) StdoutLine: {'line': b'[ 98%] Built target motor_driver_s__rosidl_typesupport_introspection_c\n'}
+[5.256611] (motor_driver) StdoutLine: {'line': b'[ 98%] Built target motor_driver_s__rosidl_typesupport_fastrtps_c\n'}
+[5.309284] (-) TimerEvent: {}
+[5.409694] (-) TimerEvent: {}
+[5.510197] (-) TimerEvent: {}
+[5.610650] (-) TimerEvent: {}
+[5.711016] (-) TimerEvent: {}
+[5.811535] (-) TimerEvent: {}
+[5.912048] (-) TimerEvent: {}
+[6.012538] (-) TimerEvent: {}
+[6.113055] (-) TimerEvent: {}
+[6.213570] (-) TimerEvent: {}
+[6.314027] (-) TimerEvent: {}
+[6.414360] (-) TimerEvent: {}
+[6.514678] (-) TimerEvent: {}
+[6.615027] (-) TimerEvent: {}
+[6.719778] (-) TimerEvent: {}
+[6.820169] (-) TimerEvent: {}
+[6.920686] (-) TimerEvent: {}
+[7.021134] (-) TimerEvent: {}
+[7.121525] (-) TimerEvent: {}
+[7.222019] (-) TimerEvent: {}
+[7.322487] (-) TimerEvent: {}
+[7.423024] (-) TimerEvent: {}
+[7.523469] (-) TimerEvent: {}
+[7.623844] (-) TimerEvent: {}
+[7.724356] (-) TimerEvent: {}
+[7.824735] (-) TimerEvent: {}
+[7.925257] (-) TimerEvent: {}
+[8.025646] (-) TimerEvent: {}
+[8.125954] (-) TimerEvent: {}
+[8.226245] (-) TimerEvent: {}
+[8.326559] (-) TimerEvent: {}
+[8.426847] (-) TimerEvent: {}
+[8.527149] (-) TimerEvent: {}
+[8.627481] (-) TimerEvent: {}
+[8.727867] (-) TimerEvent: {}
+[8.828176] (-) TimerEvent: {}
+[8.928471] (-) TimerEvent: {}
+[9.028775] (-) TimerEvent: {}
+[9.129023] (-) TimerEvent: {}
+[9.229332] (-) TimerEvent: {}
+[9.329658] (-) TimerEvent: {}
+[9.429990] (-) TimerEvent: {}
+[9.530286] (-) TimerEvent: {}
+[9.630539] (-) TimerEvent: {}
+[9.730842] (-) TimerEvent: {}
+[9.831157] (-) TimerEvent: {}
+[9.931468] (-) TimerEvent: {}
+[10.031805] (-) TimerEvent: {}
+[10.132130] (-) TimerEvent: {}
+[10.232482] (-) TimerEvent: {}
+[10.332824] (-) TimerEvent: {}
+[10.433107] (-) TimerEvent: {}
+[10.490515] (motor_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable motor_driver_node\x1b[0m\n'}
+[10.533320] (-) TimerEvent: {}
+[10.633806] (-) TimerEvent: {}
+[10.719611] (motor_driver) StdoutLine: {'line': b'[100%] Built target motor_driver_node\n'}
+[10.733662] (motor_driver) CommandEnded: {'returncode': 0}
+[10.734130] (-) TimerEvent: {}
+[10.734685] (motor_driver) JobProgress: {'identifier': 'motor_driver', 'progress': 'install'}
+[10.744486] (motor_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/earnest/ros2_ws/build/motor_driver'], 'cwd': '/home/earnest/ros2_ws/build/motor_driver', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/4534-0-earnest_TIME41911', 'USER': 'earnest', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/earnest/ros2_ws/install/motor_driver/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/earnest', 'HOME': '/home/earnest', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ZSH': '/home/earnest/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '4023', 'SYSTEMD_EXEC_PID': '4534', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '10570', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/earnest/ros2_ws/install', 'LOGNAME': 'earnest', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '9:29317', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'earnest', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/earnest:@/tmp/.ICE-unix/4485,unix/earnest:/tmp/.ICE-unix/4485', 'INVOCATION_ID': '8347f171f1db41e88e7310d25a8237d5', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.97RRB3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/earnest/ros2_ws/install/motor_driver:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:b00c58bc-b813-4837-8c68-85b89d2ea49f', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'ROS_MASTER_URI': 'http://localhost:11311', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/earnest/ros2_ws/build/motor_driver', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'ROS_HOSTNAME': 'localhost', 'PYTHONPATH': '/home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/earnest/ros2_ws/install/motor_driver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.752833] (motor_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.753069] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/ament_index/resource_index/rosidl_interfaces/motor_driver\n'}
+[10.753155] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/msg/MotorStatus.json\n'}
+[10.753278] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/msg/MotorAlarm.json\n'}
+[10.753354] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/srv/GetDiagnostics.json\n'}
+[10.753429] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver\n'}
+[10.753549] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg\n'}
+[10.753626] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/motor_alarm.h\n'}
+[10.753698] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/motor_status.h\n'}
+[10.753774] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.753846] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail\n'}
+[10.753916] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__functions.h\n'}
+[10.754033] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__description.c\n'}
+[10.754104] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__description.c\n'}
+[10.754174] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__struct.h\n'}
+[10.754243] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__functions.h\n'}
+[10.754312] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__type_support.c\n'}
+[10.754381] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__type_support.c\n'}
+[10.754450] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__functions.c\n'}
+[10.754519] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__type_support.h\n'}
+[10.754630] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__functions.c\n'}
+[10.754702] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__type_support.h\n'}
+[10.754778] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__struct.h\n'}
+[10.754847] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv\n'}
+[10.754914] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail\n'}
+[10.754981] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__type_support.c\n'}
+[10.755065] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__functions.c\n'}
+[10.755135] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__description.c\n'}
+[10.755205] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__functions.h\n'}
+[10.755274] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__type_support.h\n'}
+[10.755342] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__struct.h\n'}
+[10.755411] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/get_diagnostics.h\n'}
+[10.755478] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/environment/library_path.sh\n'}
+[10.755543] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/environment/library_path.dsv\n'}
+[10.755606] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_generator_c.so\n'}
+[10.755727] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_generator_c.so" to ""\n'}
+[10.755799] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver\n'}
+[10.755859] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg\n'}
+[10.755919] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail\n'}
+[10.755978] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__rosidl_typesupport_fastrtps_c.h\n'}
+[10.756044] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h\n'}
+[10.756103] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.756162] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv\n'}
+[10.756221] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail\n'}
+[10.756280] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__rosidl_typesupport_fastrtps_c.h\n'}
+[10.756339] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_fastrtps_c.so\n'}
+[10.756398] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.756457] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver\n'}
+[10.756516] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg\n'}
+[10.756575] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.756634] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/motor_status.hpp\n'}
+[10.756695] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail\n'}
+[10.756760] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__traits.hpp\n'}
+[10.756827] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__struct.hpp\n'}
+[10.756887] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__type_support.hpp\n'}
+[10.756946] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__traits.hpp\n'}
+[10.757004] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__builder.hpp\n'}
+[10.757063] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__builder.hpp\n'}
+[10.757125] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__struct.hpp\n'}
+[10.757184] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__type_support.hpp\n'}
+[10.757476] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/motor_alarm.hpp\n'}
+[10.757574] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv\n'}
+[10.757643] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/get_diagnostics.hpp\n'}
+[10.757730] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail\n'}
+[10.757851] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__type_support.hpp\n'}
+[10.757935] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__struct.hpp\n'}
+[10.758004] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__builder.hpp\n'}
+[10.758072] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__traits.hpp\n'}
+[10.758138] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver\n'}
+[10.758206] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg\n'}
+[10.758273] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.758342] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail\n'}
+[10.758410] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.758605] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.758825] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/dds_fastrtps\n'}
+[10.758911] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv\n'}
+[10.758989] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail\n'}
+[10.759064] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.759136] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/dds_fastrtps\n'}
+[10.759209] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.759280] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.759387] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver\n'}
+[10.759456] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg\n'}
+[10.759520] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.759589] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail\n'}
+[10.759655] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__rosidl_typesupport_introspection_c.h\n'}
+[10.759721] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__type_support.c\n'}
+[10.759796] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__rosidl_typesupport_introspection_c.h\n'}
+[10.759865] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__type_support.c\n'}
+[10.759934] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv\n'}
+[10.760003] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail\n'}
+[10.760071] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__rosidl_typesupport_introspection_c.h\n'}
+[10.760140] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__type_support.c\n'}
+[10.760209] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_introspection_c.so\n'}
+[10.760277] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.760346] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_c.so\n'}
+[10.760413] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_c.so" to ""\n'}
+[10.760482] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver\n'}
+[10.760549] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg\n'}
+[10.760617] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail\n'}
+[10.760685] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.760754] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__type_support.cpp\n'}
+[10.760828] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__type_support.cpp\n'}
+[10.760896] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.760977] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv\n'}
+[10.761042] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail\n'}
+[10.761106] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.761223] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__type_support.cpp\n'}
+[10.761282] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_introspection_cpp.so\n'}
+[10.761342] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.761402] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_cpp.so\n'}
+[10.761461] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_cpp.so" to ""\n'}
+[10.761524] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/environment/pythonpath.sh\n'}
+[10.761585] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/environment/pythonpath.dsv\n'}
+[10.761645] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver-0.0.0-py3.12.egg-info\n'}
+[10.761704] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[10.761773] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[10.761835] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[10.761897] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[10.761958] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver\n'}
+[10.762018] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_c.so\n'}
+[10.762077] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.762138] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/_motor_driver_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.762198] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/_motor_driver_s.ep.rosidl_typesupport_c.c\n'}
+[10.762259] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_introspection_c.so\n'}
+[10.762320] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg\n'}
+[10.762380] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/_motor_alarm_s.c\n'}
+[10.762445] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/_motor_status.py\n'}
+[10.762506] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/_motor_status_s.c\n'}
+[10.762566] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/_motor_alarm.py\n'}
+[10.762625] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/__init__.py\n'}
+[10.762685] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/srv\n'}
+[10.762747] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/srv/_get_diagnostics_s.c\n'}
+[10.762819] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/srv/_get_diagnostics.py\n'}
+[10.762881] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/srv/__init__.py\n'}
+[10.762942] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/__init__.py\n'}
+[10.763005] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/_motor_driver_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.790686] (motor_driver) StdoutLine: {'line': b"Listing '/home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver'...\n"}
+[10.790911] (motor_driver) StdoutLine: {'line': b"Compiling '/home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/__init__.py'...\n"}
+[10.791007] (motor_driver) StdoutLine: {'line': b"Listing '/home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg'...\n"}
+[10.791077] (motor_driver) StdoutLine: {'line': b"Compiling '/home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/__init__.py'...\n"}
+[10.791144] (motor_driver) StdoutLine: {'line': b"Compiling '/home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/_motor_alarm.py'...\n"}
+[10.791210] (motor_driver) StdoutLine: {'line': b"Compiling '/home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/_motor_status.py'...\n"}
+[10.791278] (motor_driver) StdoutLine: {'line': b"Listing '/home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/srv'...\n"}
+[10.791340] (motor_driver) StdoutLine: {'line': b"Compiling '/home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/srv/__init__.py'...\n"}
+[10.791402] (motor_driver) StdoutLine: {'line': b"Compiling '/home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/srv/_get_diagnostics.py'...\n"}
+[10.794927] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.795168] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.795285] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_introspection_c.so\n'}
+[10.795447] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.795522] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_c.so\n'}
+[10.795650] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_c.so" to ""\n'}
+[10.795720] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_generator_py.so\n'}
+[10.795834] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_generator_py.so" to ""\n'}
+[10.795904] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/msg/MotorStatus.idl\n'}
+[10.796148] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/msg/MotorAlarm.idl\n'}
+[10.796220] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/srv/GetDiagnostics.idl\n'}
+[10.796314] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/msg/MotorStatus.msg\n'}
+[10.796379] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/msg/MotorAlarm.msg\n'}
+[10.796439] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/srv/GetDiagnostics.srv\n'}
+[10.796498] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/motor_driver/motor_driver_node\n'}
+[10.799866] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/ros2_ws/install/motor_driver/lib/motor_driver/motor_driver_node" to ""\n'}
+[10.800023] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/ament_index/resource_index/package_run_dependencies/motor_driver\n'}
+[10.800110] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/ament_index/resource_index/parent_prefix_path/motor_driver\n'}
+[10.800181] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/environment/ament_prefix_path.sh\n'}
+[10.800252] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/environment/ament_prefix_path.dsv\n'}
+[10.800322] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/environment/path.sh\n'}
+[10.800429] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/environment/path.dsv\n'}
+[10.800505] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/local_setup.bash\n'}
+[10.800576] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/local_setup.sh\n'}
+[10.800646] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/local_setup.zsh\n'}
+[10.800716] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/local_setup.dsv\n'}
+[10.800792] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/package.dsv\n'}
+[10.800863] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/ament_index/resource_index/packages/motor_driver\n'}
+[10.800976] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_generator_cExport.cmake\n'}
+[10.801067] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.801139] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.801209] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.801279] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_generator_cppExport.cmake\n'}
+[10.801350] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.801421] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.801490] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.801560] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.801632] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_cExport.cmake\n'}
+[10.801733] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.801869] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.801959] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.802028] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_cppExport.cmake\n'}
+[10.802094] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.802160] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_generator_pyExport.cmake\n'}
+[10.802225] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.802290] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/rosidl_cmake-extras.cmake\n'}
+[10.802355] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.802420] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.802488] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.802568] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.802631] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.802695] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.802764] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driverConfig.cmake\n'}
+[10.802828] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driverConfig-version.cmake\n'}
+[10.802890] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/package.xml\n'}
+[10.803510] (motor_driver) CommandEnded: {'returncode': 0}
+[10.818252] (motor_driver) JobEnded: {'identifier': 'motor_driver', 'rc': 0}
+[10.818818] (-) EventReactorShutdown: {}

@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.000898] (motor_driver) JobQueued: {'identifier': 'motor_driver', 'dependencies': OrderedDict()}
+[0.001102] (motor_driver) JobStarted: {'identifier': 'motor_driver'}
+[0.007325] (motor_driver) JobProgress: {'identifier': 'motor_driver', 'progress': 'cmake'}
+[0.007675] (motor_driver) JobProgress: {'identifier': 'motor_driver', 'progress': 'build'}
+[0.008013] (motor_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/earnest/ros2_ws/build/motor_driver', '--', '-j18', '-l18'], 'cwd': '/home/earnest/ros2_ws/build/motor_driver', 'env': OrderedDict({'USER': 'earnest', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/earnest/ros2_ws/install/motor_driver/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/earnest', 'HOME': '/home/earnest', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/earnest/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '2278', 'SYSTEMD_EXEC_PID': '3611', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '72653', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/earnest/ros2_ws/install', 'LOGNAME': 'earnest', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '9:34904', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'earnest', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/earnest:@/tmp/.ICE-unix/2979,unix/earnest:/tmp/.ICE-unix/2979', 'INVOCATION_ID': '02dfffdd3c024695a504c5c53eaa02a1', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YVQ9B3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/earnest/ros2_ws/install/motor_driver:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:b6a2269d-43c9-4dcd-9fe5-d7751b8516bf', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'ROS_MASTER_URI': 'http://localhost:11311', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/earnest/ros2_ws/build/motor_driver', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'ROS_HOSTNAME': 'localhost', 'PYTHONPATH': '/home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/earnest/ros2_ws/install/motor_driver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.034469] (motor_driver) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.056683] (motor_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.099574] (-) TimerEvent: {}
+[0.129168] (motor_driver) StdoutLine: {'line': b'-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.154724] (motor_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.161995] (motor_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.171949] (motor_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.182149] (motor_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199663] (-) TimerEvent: {}
+[0.230716] (motor_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.232275] (motor_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.287058] (motor_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299762] (-) TimerEvent: {}
+[0.340648] (motor_driver) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 28.1.11 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)\n'}
+[0.365979] (motor_driver) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.376391] (motor_driver) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.383137] (motor_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.399855] (-) TimerEvent: {}
+[0.500139] (-) TimerEvent: {}
+[0.592757] (motor_driver) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.600294] (-) TimerEvent: {}
+[0.700703] (-) TimerEvent: {}
+[0.742328] (motor_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800835] (-) TimerEvent: {}
+[0.805616] (motor_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.806824] (motor_driver) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[0.901021] (-) TimerEvent: {}
+[1.001468] (-) TimerEvent: {}
+[1.037659] (motor_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.062313] (motor_driver) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[1.099338] (motor_driver) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.101595] (-) TimerEvent: {}
+[1.107983] (motor_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/earnest/ros2_ws/build/motor_driver\n'}
+[1.142701] (motor_driver) StdoutLine: {'line': b'[  1%] Built target motor_driver__rosidl_generator_type_description\n'}
+[1.154588] (motor_driver) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_motor_driver\n'}
+[1.165042] (motor_driver) StdoutLine: {'line': b'[  3%] Built target motor_driver__cpp\n'}
+[1.167068] (motor_driver) StdoutLine: {'line': b'[ 22%] Built target motor_driver__rosidl_generator_c\n'}
+[1.184553] (motor_driver) StdoutLine: {'line': b'[ 31%] Built target motor_driver__rosidl_typesupport_introspection_c\n'}
+[1.185718] (motor_driver) StdoutLine: {'line': b'[ 39%] Built target motor_driver__rosidl_typesupport_c\n'}
+[1.186217] (motor_driver) StdoutLine: {'line': b'[ 48%] Built target motor_driver__rosidl_typesupport_fastrtps_cpp\n'}
+[1.188630] (motor_driver) StdoutLine: {'line': b'[ 56%] Built target motor_driver__rosidl_typesupport_introspection_cpp\n'}
+[1.189791] (motor_driver) StdoutLine: {'line': b'[ 65%] Built target motor_driver__rosidl_typesupport_cpp\n'}
+[1.194167] (motor_driver) StdoutLine: {'line': b'[ 74%] Built target motor_driver__rosidl_typesupport_fastrtps_c\n'}
+[1.201723] (-) TimerEvent: {}
+[1.212219] (motor_driver) StdoutLine: {'line': b'[ 74%] Built target motor_driver\n'}
+[1.212684] (motor_driver) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver_node.dir/src/motor_controller.cpp.o\x1b[0m\n'}
+[1.213997] (motor_driver) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver_node.dir/src/motor_driver_node.cpp.o\x1b[0m\n'}
+[1.214194] (motor_driver) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver_node.dir/src/can_interface.cpp.o\x1b[0m\n'}
+[1.237350] (motor_driver) StdoutLine: {'line': b'[ 81%] Built target motor_driver__py\n'}
+[1.271242] (motor_driver) StdoutLine: {'line': b'[ 87%] Built target motor_driver__rosidl_generator_py\n'}
+[1.295100] (motor_driver) StdoutLine: {'line': b'[ 91%] Built target motor_driver_s__rosidl_typesupport_c\n'}
+[1.296484] (motor_driver) StdoutLine: {'line': b'[ 98%] Built target motor_driver_s__rosidl_typesupport_fastrtps_c\n'}
+[1.296674] (motor_driver) StdoutLine: {'line': b'[ 98%] Built target motor_driver_s__rosidl_typesupport_introspection_c\n'}
+[1.301815] (-) TimerEvent: {}
+[1.315199] (motor_driver) StdoutLine: {'line': b'running egg_info\n'}
+[1.328586] (motor_driver) StdoutLine: {'line': b'writing motor_driver.egg-info/PKG-INFO\n'}
+[1.328840] (motor_driver) StdoutLine: {'line': b'writing dependency_links to motor_driver.egg-info/dependency_links.txt\n'}
+[1.328931] (motor_driver) StdoutLine: {'line': b'writing top-level names to motor_driver.egg-info/top_level.txt\n'}
+[1.365763] (motor_driver) StdoutLine: {'line': b"reading manifest file 'motor_driver.egg-info/SOURCES.txt'\n"}
+[1.366101] (motor_driver) StdoutLine: {'line': b"writing manifest file 'motor_driver.egg-info/SOURCES.txt'\n"}
+[1.393014] (motor_driver) StdoutLine: {'line': b'[ 98%] Built target ament_cmake_python_build_motor_driver_egg\n'}
+[1.401954] (-) TimerEvent: {}
+[1.502432] (-) TimerEvent: {}
+[1.602891] (-) TimerEvent: {}
+[1.703289] (-) TimerEvent: {}
+[1.803692] (-) TimerEvent: {}
+[1.904211] (-) TimerEvent: {}
+[2.004798] (-) TimerEvent: {}
+[2.105219] (-) TimerEvent: {}
+[2.205780] (-) TimerEvent: {}
+[2.306247] (-) TimerEvent: {}
+[2.406665] (-) TimerEvent: {}
+[2.507168] (-) TimerEvent: {}
+[2.607678] (-) TimerEvent: {}
+[2.708142] (-) TimerEvent: {}
+[2.808535] (-) TimerEvent: {}
+[2.828938] (motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/earnest/ros2_ws/src/motor_driver/src/motor_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.829467] (motor_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/earnest/ros2_ws/src/motor_driver/src/motor_driver_node.cpp:41:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klifecycle_msgs::msg::State\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.829673] (motor_driver) StderrLine: {'line': b'   41 |  if (this->get_current_state().id() == lifecycle_msgs::msg::\x1b[01;31m\x1b[KState\x1b[m\x1b[K::PRIMARY_STATE_ACTIVE) {\n'}
+[2.829842] (motor_driver) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.830001] (motor_driver) StderrLine: {'line': b'\n'}
+[2.908717] (-) TimerEvent: {}
+[3.009273] (-) TimerEvent: {}
+[3.109772] (-) TimerEvent: {}
+[3.210228] (-) TimerEvent: {}
+[3.310608] (-) TimerEvent: {}
+[3.411148] (-) TimerEvent: {}
+[3.511661] (-) TimerEvent: {}
+[3.612208] (-) TimerEvent: {}
+[3.712752] (-) TimerEvent: {}
+[3.813323] (-) TimerEvent: {}
+[3.913896] (-) TimerEvent: {}
+[4.014227] (-) TimerEvent: {}
+[4.114572] (-) TimerEvent: {}
+[4.214894] (-) TimerEvent: {}
+[4.315212] (-) TimerEvent: {}
+[4.415527] (-) TimerEvent: {}
+[4.515873] (-) TimerEvent: {}
+[4.522146] (motor_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/motor_driver_node.dir/build.make:76: CMakeFiles/motor_driver_node.dir/src/motor_driver_node.cpp.o] Error 1\n'}
+[4.522751] (motor_driver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/motor_driver_node.dir/all] Error 2\n'}
+[4.523263] (motor_driver) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.526491] (motor_driver) CommandEnded: {'returncode': 2}
+[4.537655] (motor_driver) JobEnded: {'identifier': 'motor_driver', 'rc': 2}
+[4.548072] (-) EventReactorShutdown: {}

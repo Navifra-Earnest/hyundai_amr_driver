@@ -1,0 +1,215 @@
+[0.030s] Invoking command in '/home/earnest/ros2_ws/build/motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/earnest/ros2_ws/build/motor_driver -- -j18 -l18
+[0.159s] [  1%] Built target motor_driver__rosidl_generator_type_description
+[0.180s] [  1%] Built target ament_cmake_python_copy_motor_driver
+[0.199s] [  3%] Built target motor_driver__cpp
+[0.209s] [ 22%] Built target motor_driver__rosidl_generator_c
+[0.246s] [ 31%] Built target motor_driver__rosidl_typesupport_c
+[0.250s] [ 39%] Built target motor_driver__rosidl_typesupport_introspection_cpp
+[0.252s] [ 48%] Built target motor_driver__rosidl_typesupport_cpp
+[0.252s] [ 56%] Built target motor_driver__rosidl_typesupport_introspection_c
+[0.256s] [ 65%] Built target motor_driver__rosidl_typesupport_fastrtps_c
+[0.257s] [ 74%] Built target motor_driver__rosidl_typesupport_fastrtps_cpp
+[0.299s] [ 74%] Built target motor_driver
+[0.326s] [ 75%] [32mBuilding CXX object CMakeFiles/motor_driver_node.dir/src/motor_driver_node.cpp.o[0m
+[0.333s] [ 77%] [32mBuilding CXX object CMakeFiles/motor_driver_node.dir/src/motor_controller.cpp.o[0m
+[0.341s] [ 79%] Built target motor_driver__py
+[0.412s] [ 86%] Built target motor_driver__rosidl_generator_py
+[0.432s] running egg_info
+[0.449s] [ 89%] Built target motor_driver_s__rosidl_typesupport_c
+[0.450s] writing motor_driver.egg-info/PKG-INFO
+[0.451s] writing dependency_links to motor_driver.egg-info/dependency_links.txt
+[0.451s] writing top-level names to motor_driver.egg-info/top_level.txt
+[0.454s] [ 93%] Built target motor_driver_s__rosidl_typesupport_fastrtps_c
+[0.458s] [ 96%] Built target motor_driver_s__rosidl_typesupport_introspection_c
+[0.501s] reading manifest file 'motor_driver.egg-info/SOURCES.txt'
+[0.502s] writing manifest file 'motor_driver.egg-info/SOURCES.txt'
+[0.541s] [ 96%] Built target ament_cmake_python_build_motor_driver_egg
+[9.073s] [ 98%] [32m[1mLinking CXX executable motor_driver_node[0m
+[9.507s] [100%] Built target motor_driver_node
+[9.529s] Invoked command in '/home/earnest/ros2_ws/build/motor_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/earnest/ros2_ws/build/motor_driver -- -j18 -l18
+[9.547s] Invoking command in '/home/earnest/ros2_ws/build/motor_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/earnest/ros2_ws/build/motor_driver
+[9.564s] -- Install configuration: ""
+[9.564s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/ament_index/resource_index/rosidl_interfaces/motor_driver
+[9.565s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/msg/MotorStatus.json
+[9.565s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/msg/MotorAlarm.json
+[9.565s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/srv/GetDiagnostics.json
+[9.565s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver
+[9.565s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg
+[9.565s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/motor_alarm.h
+[9.565s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/motor_status.h
+[9.565s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/rosidl_generator_c__visibility_control.h
+[9.566s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail
+[9.566s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__functions.h
+[9.566s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__description.c
+[9.566s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__description.c
+[9.566s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__struct.h
+[9.567s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__functions.h
+[9.567s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__type_support.c
+[9.567s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__type_support.c
+[9.567s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__functions.c
+[9.567s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__type_support.h
+[9.568s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__functions.c
+[9.568s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__type_support.h
+[9.568s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__struct.h
+[9.568s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv
+[9.568s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail
+[9.568s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__type_support.c
+[9.568s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__functions.c
+[9.568s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__description.c
+[9.568s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__functions.h
+[9.568s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__type_support.h
+[9.569s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__struct.h
+[9.569s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/get_diagnostics.h
+[9.569s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/environment/library_path.sh
+[9.569s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/environment/library_path.dsv
+[9.569s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_generator_c.so
+[9.569s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver
+[9.569s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg
+[9.569s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail
+[9.569s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__rosidl_typesupport_fastrtps_c.h
+[9.569s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h
+[9.569s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.570s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv
+[9.570s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail
+[9.570s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__rosidl_typesupport_fastrtps_c.h
+[9.572s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_fastrtps_c.so
+[9.573s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver
+[9.573s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg
+[9.573s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.573s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/motor_status.hpp
+[9.573s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail
+[9.573s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__traits.hpp
+[9.573s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__struct.hpp
+[9.573s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__type_support.hpp
+[9.573s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__traits.hpp
+[9.573s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__builder.hpp
+[9.573s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__builder.hpp
+[9.574s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__struct.hpp
+[9.574s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__type_support.hpp
+[9.574s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/motor_alarm.hpp
+[9.574s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv
+[9.574s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/get_diagnostics.hpp
+[9.574s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail
+[9.574s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__type_support.hpp
+[9.574s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__struct.hpp
+[9.574s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__builder.hpp
+[9.575s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__traits.hpp
+[9.575s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver
+[9.575s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg
+[9.575s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.575s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail
+[9.575s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp
+[9.575s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__rosidl_typesupport_fastrtps_cpp.hpp
+[9.575s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/dds_fastrtps
+[9.575s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv
+[9.575s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail
+[9.575s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__rosidl_typesupport_fastrtps_cpp.hpp
+[9.576s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/dds_fastrtps
+[9.576s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_fastrtps_cpp.so
+[9.576s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver
+[9.576s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg
+[9.576s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.576s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail
+[9.576s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__rosidl_typesupport_introspection_c.h
+[9.576s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__type_support.c
+[9.576s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__rosidl_typesupport_introspection_c.h
+[9.577s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__type_support.c
+[9.577s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv
+[9.577s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail
+[9.577s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__rosidl_typesupport_introspection_c.h
+[9.577s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__type_support.c
+[9.577s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_introspection_c.so
+[9.577s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_c.so
+[9.577s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver
+[9.577s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg
+[9.577s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail
+[9.577s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__rosidl_typesupport_introspection_cpp.hpp
+[9.578s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__type_support.cpp
+[9.578s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__type_support.cpp
+[9.578s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp
+[9.578s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv
+[9.578s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail
+[9.578s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__rosidl_typesupport_introspection_cpp.hpp
+[9.578s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__type_support.cpp
+[9.578s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_introspection_cpp.so
+[9.578s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_cpp.so
+[9.578s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/environment/pythonpath.sh
+[9.579s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/environment/pythonpath.dsv
+[9.579s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver-0.0.0-py3.12.egg-info
+[9.579s] -- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver-0.0.0-py3.12.egg-info/dependency_links.txt
+[9.579s] -- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver-0.0.0-py3.12.egg-info/PKG-INFO
+[9.579s] -- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver-0.0.0-py3.12.egg-info/top_level.txt
+[9.579s] -- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver-0.0.0-py3.12.egg-info/SOURCES.txt
+[9.579s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver
+[9.579s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_c.so
+[9.579s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_fastrtps_c.so
+[9.579s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/_motor_driver_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.580s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/_motor_driver_s.ep.rosidl_typesupport_c.c
+[9.580s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_introspection_c.so
+[9.580s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg
+[9.580s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/_motor_alarm_s.c
+[9.580s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/_motor_status.py
+[9.580s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/_motor_status_s.c
+[9.580s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/_motor_alarm.py
+[9.580s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/__init__.py
+[9.580s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/srv
+[9.580s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/srv/_get_diagnostics_s.c
+[9.580s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/srv/_get_diagnostics.py
+[9.580s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/srv/__init__.py
+[9.581s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/__init__.py
+[9.581s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/_motor_driver_s.ep.rosidl_typesupport_introspection_c.c
+[9.628s] Listing '/home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver'...
+[9.628s] Listing '/home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg'...
+[9.628s] Listing '/home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/srv'...
+[9.633s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_fastrtps_c.so
+[9.634s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_introspection_c.so
+[9.634s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_c.so
+[9.635s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_generator_py.so
+[9.636s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/msg/MotorStatus.idl
+[9.636s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/msg/MotorAlarm.idl
+[9.636s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/srv/GetDiagnostics.idl
+[9.636s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/msg/MotorStatus.msg
+[9.636s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/msg/MotorAlarm.msg
+[9.636s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/srv/GetDiagnostics.srv
+[9.636s] -- Installing: /home/earnest/ros2_ws/install/motor_driver/lib/motor_driver/motor_driver_node
+[9.643s] -- Set non-toolchain portion of runtime path of "/home/earnest/ros2_ws/install/motor_driver/lib/motor_driver/motor_driver_node" to ""
+[9.643s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/ament_index/resource_index/package_run_dependencies/motor_driver
+[9.643s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/ament_index/resource_index/parent_prefix_path/motor_driver
+[9.643s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/environment/ament_prefix_path.sh
+[9.643s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/environment/ament_prefix_path.dsv
+[9.644s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/environment/path.sh
+[9.644s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/environment/path.dsv
+[9.644s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/local_setup.bash
+[9.644s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/local_setup.sh
+[9.644s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/local_setup.zsh
+[9.645s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/local_setup.dsv
+[9.645s] -- Installing: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/package.dsv
+[9.645s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/ament_index/resource_index/packages/motor_driver
+[9.645s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_generator_cExport.cmake
+[9.645s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_generator_cExport-noconfig.cmake
+[9.645s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_typesupport_fastrtps_cExport.cmake
+[9.645s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.645s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_generator_cppExport.cmake
+[9.646s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.646s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.646s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_introspection_cExport.cmake
+[9.646s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.646s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_cExport.cmake
+[9.646s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_cExport-noconfig.cmake
+[9.647s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_introspection_cppExport.cmake
+[9.647s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.647s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_cppExport.cmake
+[9.647s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_cppExport-noconfig.cmake
+[9.648s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_generator_pyExport.cmake
+[9.648s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_generator_pyExport-noconfig.cmake
+[9.648s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/rosidl_cmake-extras.cmake
+[9.648s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.648s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.648s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[9.648s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/ament_cmake_export_targets-extras.cmake
+[9.648s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.648s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.648s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driverConfig.cmake
+[9.648s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driverConfig-version.cmake
+[9.648s] -- Up-to-date: /home/earnest/ros2_ws/install/motor_driver/share/motor_driver/package.xml
+[9.651s] Invoked command in '/home/earnest/ros2_ws/build/motor_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/earnest/ros2_ws/build/motor_driver

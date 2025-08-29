@@ -1,0 +1,3 @@
+/home/earnest/hyundai_amr_driver/build/motor_driver/rosidl_adapter/motor_driver:msg/MotorStatus.idl
+/home/earnest/hyundai_amr_driver/build/motor_driver/rosidl_adapter/motor_driver:msg/MotorAlarm.idl
+/home/earnest/hyundai_amr_driver/build/motor_driver/rosidl_adapter/motor_driver:srv/GetDiagnostics.idl
