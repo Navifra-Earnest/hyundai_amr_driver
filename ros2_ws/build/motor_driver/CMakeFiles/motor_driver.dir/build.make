@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/earnest/ros2_ws/src/motor_driver
+CMAKE_SOURCE_DIR = /home/earnest/hyundai_amr_driver/ros2_ws/src/motor_driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/earnest/ros2_ws/build/motor_driver
+CMAKE_BINARY_DIR = /home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver
 
 # Utility rule file for motor_driver.
 
@@ -66,9 +66,9 @@ include CMakeFiles/motor_driver.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/motor_driver.dir/progress.make
 
-CMakeFiles/motor_driver: /home/earnest/ros2_ws/src/motor_driver/msg/MotorStatus.msg
-CMakeFiles/motor_driver: /home/earnest/ros2_ws/src/motor_driver/msg/MotorAlarm.msg
-CMakeFiles/motor_driver: /home/earnest/ros2_ws/src/motor_driver/srv/GetDiagnostics.srv
+CMakeFiles/motor_driver: /home/earnest/hyundai_amr_driver/ros2_ws/src/motor_driver/msg/MotorStatus.msg
+CMakeFiles/motor_driver: /home/earnest/hyundai_amr_driver/ros2_ws/src/motor_driver/msg/MotorAlarm.msg
+CMakeFiles/motor_driver: /home/earnest/hyundai_amr_driver/ros2_ws/src/motor_driver/srv/GetDiagnostics.srv
 CMakeFiles/motor_driver: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 CMakeFiles/motor_driver: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
 CMakeFiles/motor_driver: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
@@ -114,6 +114,6 @@ CMakeFiles/motor_driver.dir/clean:
 .PHONY : CMakeFiles/motor_driver.dir/clean
 
 CMakeFiles/motor_driver.dir/depend:
-	cd /home/earnest/ros2_ws/build/motor_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/earnest/ros2_ws/src/motor_driver /home/earnest/ros2_ws/src/motor_driver /home/earnest/ros2_ws/build/motor_driver /home/earnest/ros2_ws/build/motor_driver /home/earnest/ros2_ws/build/motor_driver/CMakeFiles/motor_driver.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/earnest/hyundai_amr_driver/ros2_ws/src/motor_driver /home/earnest/hyundai_amr_driver/ros2_ws/src/motor_driver /home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver /home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver /home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver/CMakeFiles/motor_driver.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/motor_driver.dir/depend
 

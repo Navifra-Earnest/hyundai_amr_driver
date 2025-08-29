@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DROSIDL_GENERATOR_C_BUILDING_DLL_motor_driver -DROS_PACKAGE_NAME=\"motor_driver\"
 
-CXX_INCLUDES = -I/home/earnest/ros2_ws/build/motor_driver/rosidl_generator_c -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_c
+CXX_INCLUDES = -I/home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver/rosidl_generator_c -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_c
 
 CXX_FLAGS = -std=gnu++17 -fPIC -Wall
 

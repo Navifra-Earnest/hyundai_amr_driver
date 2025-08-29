@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "motor_driver/srv/detail/get_diagnostics__functions.h"
-#include "motor_driver/srv/detail/get_diagnostics__type_support.h"
 #include "motor_driver/srv/detail/get_diagnostics__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "motor_driver/srv/detail/get_diagnostics__functions.h"
+#include "motor_driver/srv/detail/get_diagnostics__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

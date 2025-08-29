@@ -1,8 +1,8 @@
 {
   "package_name": "motor_driver",
   "non_idl_tuples": [
-    "/home/earnest/ros2_ws/src/motor_driver:msg/MotorStatus.msg",
-    "/home/earnest/ros2_ws/src/motor_driver:msg/MotorAlarm.msg",
-    "/home/earnest/ros2_ws/src/motor_driver:srv/GetDiagnostics.srv"
+    "/home/earnest/hyundai_amr_driver/ros2_ws/src/motor_driver:msg/MotorStatus.msg",
+    "/home/earnest/hyundai_amr_driver/ros2_ws/src/motor_driver:msg/MotorAlarm.msg",
+    "/home/earnest/hyundai_amr_driver/ros2_ws/src/motor_driver:srv/GetDiagnostics.srv"
   ]
 }

@@ -1,0 +1,506 @@
+[0.000000] (-) TimerEvent: {}
+[0.000572] (motor_driver) JobQueued: {'identifier': 'motor_driver', 'dependencies': OrderedDict()}
+[0.000675] (motor_driver) JobStarted: {'identifier': 'motor_driver'}
+[0.010677] (motor_driver) JobProgress: {'identifier': 'motor_driver', 'progress': 'cmake'}
+[0.012317] (motor_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/earnest/hyundai_amr_driver/ros2_ws/src/motor_driver', '-DCMAKE_INSTALL_PREFIX=/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver'], 'cwd': '/home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver', 'env': OrderedDict({'USER': 'earnest', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/earnest/hyundai_amr_driver', 'HOME': '/home/earnest', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/earnest/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '2278', 'SYSTEMD_EXEC_PID': '3611', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '638730', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/earnest/hyundai_amr_driver/ros2_ws/install', 'LOGNAME': 'earnest', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '9:34904', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'earnest', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/earnest:@/tmp/.ICE-unix/2979,unix/earnest:/tmp/.ICE-unix/2979', 'INVOCATION_ID': '02dfffdd3c024695a504c5c53eaa02a1', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YVQ9B3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:b4774634-b777-4c8e-b9d7-9130ca9e0f0b', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'ROS_MASTER_URI': 'http://localhost:11311', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'ROS_HOSTNAME': 'localhost', 'PYTHONPATH': '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099064] (-) TimerEvent: {}
+[0.103362] (motor_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.198148] (motor_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.199143] (-) TimerEvent: {}
+[0.228025] (motor_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299373] (-) TimerEvent: {}
+[0.393070] (motor_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.399502] (-) TimerEvent: {}
+[0.405347] (motor_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.406136] (motor_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.406463] (motor_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.427286] (motor_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499761] (-) TimerEvent: {}
+[0.600426] (-) TimerEvent: {}
+[0.611548] (motor_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.624305] (motor_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.625008] (motor_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.625405] (motor_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.630496] (motor_driver) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.700589] (-) TimerEvent: {}
+[0.801212] (-) TimerEvent: {}
+[0.870821] (motor_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.901402] (-) TimerEvent: {}
+[1.002025] (-) TimerEvent: {}
+[1.029426] (motor_driver) StdoutLine: {'line': b'-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.084055] (motor_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.098466] (motor_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.102093] (-) TimerEvent: {}
+[1.115324] (motor_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.133779] (motor_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.202310] (-) TimerEvent: {}
+[1.228005] (motor_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.231227] (motor_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.302513] (-) TimerEvent: {}
+[1.369606] (motor_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.400168] (motor_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.402637] (-) TimerEvent: {}
+[1.444557] (motor_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.502894] (-) TimerEvent: {}
+[1.527672] (motor_driver) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 28.1.11 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)\n'}
+[1.559749] (motor_driver) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.574138] (motor_driver) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.589706] (motor_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.602967] (-) TimerEvent: {}
+[1.703329] (-) TimerEvent: {}
+[1.768291] (motor_driver) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread \n'}
+[1.803435] (-) TimerEvent: {}
+[1.903781] (-) TimerEvent: {}
+[2.004193] (-) TimerEvent: {}
+[2.104574] (-) TimerEvent: {}
+[2.205085] (-) TimerEvent: {}
+[2.305484] (-) TimerEvent: {}
+[2.405997] (-) TimerEvent: {}
+[2.506423] (-) TimerEvent: {}
+[2.606825] (-) TimerEvent: {}
+[2.668874] (motor_driver) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.707004] (-) TimerEvent: {}
+[2.807541] (-) TimerEvent: {}
+[2.908192] (-) TimerEvent: {}
+[3.008802] (-) TimerEvent: {}
+[3.109384] (-) TimerEvent: {}
+[3.209832] (-) TimerEvent: {}
+[3.310217] (-) TimerEvent: {}
+[3.410635] (-) TimerEvent: {}
+[3.511043] (-) TimerEvent: {}
+[3.611450] (-) TimerEvent: {}
+[3.711881] (-) TimerEvent: {}
+[3.812332] (-) TimerEvent: {}
+[3.912757] (-) TimerEvent: {}
+[3.926042] (motor_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.012935] (-) TimerEvent: {}
+[4.113554] (-) TimerEvent: {}
+[4.214144] (-) TimerEvent: {}
+[4.314698] (-) TimerEvent: {}
+[4.364364] (motor_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.370395] (motor_driver) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.414878] (-) TimerEvent: {}
+[4.515528] (-) TimerEvent: {}
+[4.570823] (motor_driver) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[4.615703] (-) TimerEvent: {}
+[4.716352] (-) TimerEvent: {}
+[4.816955] (-) TimerEvent: {}
+[4.917552] (-) TimerEvent: {}
+[5.018130] (-) TimerEvent: {}
+[5.118718] (-) TimerEvent: {}
+[5.183215] (motor_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.218976] (-) TimerEvent: {}
+[5.260974] (motor_driver) StdoutLine: {'line': b'-- Configuring done (5.2s)\n'}
+[5.302687] (motor_driver) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[5.314926] (motor_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver\n'}
+[5.319164] (-) TimerEvent: {}
+[5.331538] (motor_driver) CommandEnded: {'returncode': 0}
+[5.335762] (motor_driver) JobProgress: {'identifier': 'motor_driver', 'progress': 'build'}
+[5.335846] (motor_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver', '--', '-j18', '-l18'], 'cwd': '/home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver', 'env': OrderedDict({'USER': 'earnest', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/earnest/hyundai_amr_driver', 'HOME': '/home/earnest', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/earnest/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '2278', 'SYSTEMD_EXEC_PID': '3611', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '638730', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/earnest/hyundai_amr_driver/ros2_ws/install', 'LOGNAME': 'earnest', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '9:34904', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'earnest', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/earnest:@/tmp/.ICE-unix/2979,unix/earnest:/tmp/.ICE-unix/2979', 'INVOCATION_ID': '02dfffdd3c024695a504c5c53eaa02a1', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YVQ9B3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:b4774634-b777-4c8e-b9d7-9130ca9e0f0b', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'ROS_MASTER_URI': 'http://localhost:11311', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'ROS_HOSTNAME': 'localhost', 'PYTHONPATH': '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.419370] (-) TimerEvent: {}
+[5.430475] (motor_driver) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[5.447159] (motor_driver) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_motor_driver\n'}
+[5.519522] (-) TimerEvent: {}
+[5.620115] (-) TimerEvent: {}
+[5.675138] (motor_driver) StdoutLine: {'line': b'running egg_info\n'}
+[5.675893] (motor_driver) StdoutLine: {'line': b'creating motor_driver.egg-info\n'}
+[5.691098] (motor_driver) StdoutLine: {'line': b'writing motor_driver.egg-info/PKG-INFO\n'}
+[5.691453] (motor_driver) StdoutLine: {'line': b'writing dependency_links to motor_driver.egg-info/dependency_links.txt\n'}
+[5.691879] (motor_driver) StdoutLine: {'line': b'writing top-level names to motor_driver.egg-info/top_level.txt\n'}
+[5.692202] (motor_driver) StdoutLine: {'line': b"writing manifest file 'motor_driver.egg-info/SOURCES.txt'\n"}
+[5.720214] (-) TimerEvent: {}
+[5.736932] (motor_driver) StdoutLine: {'line': b"reading manifest file 'motor_driver.egg-info/SOURCES.txt'\n"}
+[5.737474] (motor_driver) StdoutLine: {'line': b"writing manifest file 'motor_driver.egg-info/SOURCES.txt'\n"}
+[5.772741] (motor_driver) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_motor_driver_egg\n'}
+[5.804179] (motor_driver) StdoutLine: {'line': b'[  1%] Built target motor_driver__rosidl_generator_type_description\n'}
+[5.820376] (-) TimerEvent: {}
+[5.824440] (motor_driver) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.841634] (motor_driver) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.920572] (-) TimerEvent: {}
+[6.021050] (-) TimerEvent: {}
+[6.121460] (-) TimerEvent: {}
+[6.221916] (-) TimerEvent: {}
+[6.261840] (motor_driver) StdoutLine: {'line': b'[  5%] Built target motor_driver__cpp\n'}
+[6.307418] (motor_driver) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_c.dir/rosidl_generator_c/motor_driver/msg/detail/motor_status__type_support.c.o\x1b[0m\n'}
+[6.307820] (motor_driver) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_c.dir/rosidl_generator_c/motor_driver/srv/detail/get_diagnostics__type_support.c.o\x1b[0m\n'}
+[6.308385] (motor_driver) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_c.dir/rosidl_generator_c/motor_driver/msg/detail/motor_alarm__description.c.o\x1b[0m\n'}
+[6.310237] (motor_driver) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_c.dir/rosidl_generator_c/motor_driver/srv/detail/get_diagnostics__description.c.o\x1b[0m\n'}
+[6.313257] (motor_driver) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_c.dir/rosidl_generator_c/motor_driver/msg/detail/motor_alarm__type_support.c.o\x1b[0m\n'}
+[6.315664] (motor_driver) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_c.dir/rosidl_generator_c/motor_driver/msg/detail/motor_alarm__functions.c.o\x1b[0m\n'}
+[6.316077] (motor_driver) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_c.dir/rosidl_generator_c/motor_driver/msg/detail/motor_status__functions.c.o\x1b[0m\n'}
+[6.316283] (motor_driver) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_c.dir/rosidl_generator_c/motor_driver/srv/detail/get_diagnostics__functions.c.o\x1b[0m\n'}
+[6.319027] (motor_driver) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_c.dir/rosidl_generator_c/motor_driver/msg/detail/motor_status__description.c.o\x1b[0m\n'}
+[6.322140] (-) TimerEvent: {}
+[6.400216] (motor_driver) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmotor_driver__rosidl_generator_c.so\x1b[0m\n'}
+[6.422327] (-) TimerEvent: {}
+[6.470043] (motor_driver) StdoutLine: {'line': b'[ 22%] Built target motor_driver__rosidl_generator_c\n'}
+[6.487997] (motor_driver) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.488634] (motor_driver) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.488911] (motor_driver) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.494791] (motor_driver) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.496491] (motor_driver) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.497095] (motor_driver) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.522482] (-) TimerEvent: {}
+[6.623053] (-) TimerEvent: {}
+[6.723619] (-) TimerEvent: {}
+[6.824195] (-) TimerEvent: {}
+[6.841684] (motor_driver) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_driver/msg/motor_alarm__type_support.cpp.o\x1b[0m\n'}
+[6.843462] (motor_driver) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_driver/msg/motor_status__type_support.cpp.o\x1b[0m\n'}
+[6.845107] (motor_driver) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_driver/srv/get_diagnostics__type_support.cpp.o\x1b[0m\n'}
+[6.850893] (motor_driver) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_driver/msg/motor_alarm__type_support.cpp.o\x1b[0m\n'}
+[6.851236] (motor_driver) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_driver/srv/get_diagnostics__type_support.cpp.o\x1b[0m\n'}
+[6.864811] (motor_driver) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_driver/msg/detail/motor_status__type_support.c.o\x1b[0m\n'}
+[6.865199] (motor_driver) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_driver/msg/detail/motor_alarm__type_support.c.o\x1b[0m\n'}
+[6.866360] (motor_driver) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_driver/msg/motor_status__type_support.cpp.o\x1b[0m\n'}
+[6.866586] (motor_driver) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_driver/srv/detail/get_diagnostics__type_support.c.o\x1b[0m\n'}
+[6.917102] (motor_driver) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libmotor_driver__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.920496] (motor_driver) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_driver__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.924285] (-) TimerEvent: {}
+[6.957488] (motor_driver) StdoutLine: {'line': b'[ 51%] Built target motor_driver__rosidl_typesupport_introspection_c\n'}
+[6.975476] (motor_driver) StdoutLine: {'line': b'[ 51%] Built target motor_driver__rosidl_typesupport_c\n'}
+[7.000474] (motor_driver) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_driver/msg/detail/motor_status__type_support_c.cpp.o\x1b[0m\n'}
+[7.000993] (motor_driver) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_driver/srv/detail/get_diagnostics__type_support_c.cpp.o\x1b[0m\n'}
+[7.001277] (motor_driver) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_driver/msg/detail/motor_alarm__type_support_c.cpp.o\x1b[0m\n'}
+[7.017625] (motor_driver) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_driver/srv/detail/get_diagnostics__type_support.cpp.o\x1b[0m\n'}
+[7.018081] (motor_driver) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_driver/msg/detail/motor_status__type_support.cpp.o\x1b[0m\n'}
+[7.018220] (motor_driver) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_driver/msg/detail/motor_alarm__type_support.cpp.o\x1b[0m\n'}
+[7.024413] (-) TimerEvent: {}
+[7.073135] (motor_driver) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_driver/msg/detail/dds_fastrtps/motor_status__type_support.cpp.o\x1b[0m\n'}
+[7.074411] (motor_driver) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_driver/srv/detail/dds_fastrtps/get_diagnostics__type_support.cpp.o\x1b[0m\n'}
+[7.074714] (motor_driver) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_driver/msg/detail/dds_fastrtps/motor_alarm__type_support.cpp.o\x1b[0m\n'}
+[7.124558] (-) TimerEvent: {}
+[7.224926] (-) TimerEvent: {}
+[7.325297] (-) TimerEvent: {}
+[7.425743] (-) TimerEvent: {}
+[7.466861] (motor_driver) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_driver__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.525958] (-) TimerEvent: {}
+[7.550028] (motor_driver) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_driver__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.570353] (motor_driver) StdoutLine: {'line': b'[ 70%] Built target motor_driver__rosidl_typesupport_cpp\n'}
+[7.607859] (motor_driver) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver_node.dir/src/motor_driver_node.cpp.o\x1b[0m\n'}
+[7.608248] (motor_driver) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver_node.dir/src/motor_controller.cpp.o\x1b[0m\n'}
+[7.608347] (motor_driver) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/motor_driver_node.dir/src/can_interface.cpp.o\x1b[0m\n'}
+[7.626105] (-) TimerEvent: {}
+[7.648994] (motor_driver) StdoutLine: {'line': b'[ 75%] Built target motor_driver__rosidl_typesupport_introspection_cpp\n'}
+[7.652022] (motor_driver) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_driver__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.726348] (-) TimerEvent: {}
+[7.752232] (motor_driver) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_driver__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.777069] (motor_driver) StdoutLine: {'line': b'[ 79%] Built target motor_driver__rosidl_typesupport_fastrtps_c\n'}
+[7.826532] (-) TimerEvent: {}
+[7.858948] (motor_driver) StdoutLine: {'line': b'[ 79%] Built target motor_driver__rosidl_typesupport_fastrtps_cpp\n'}
+[7.902220] (motor_driver) StdoutLine: {'line': b'[ 79%] Built target motor_driver\n'}
+[7.926802] (-) TimerEvent: {}
+[7.950594] (motor_driver) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.026989] (-) TimerEvent: {}
+[8.127576] (-) TimerEvent: {}
+[8.228221] (-) TimerEvent: {}
+[8.328818] (-) TimerEvent: {}
+[8.429294] (-) TimerEvent: {}
+[8.529896] (-) TimerEvent: {}
+[8.570409] (motor_driver) StdoutLine: {'line': b'[ 81%] Built target motor_driver__py\n'}
+[8.613926] (motor_driver) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_py.dir/rosidl_generator_py/motor_driver/srv/_get_diagnostics_s.c.o\x1b[0m\n'}
+[8.617994] (motor_driver) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_py.dir/rosidl_generator_py/motor_driver/msg/_motor_status_s.c.o\x1b[0m\n'}
+[8.618215] (motor_driver) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/motor_driver__rosidl_generator_py.dir/rosidl_generator_py/motor_driver/msg/_motor_alarm_s.c.o\x1b[0m\n'}
+[8.630039] (-) TimerEvent: {}
+[8.730570] (-) TimerEvent: {}
+[8.809551] (motor_driver) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library libmotor_driver__rosidl_generator_py.so\x1b[0m\n'}
+[8.830839] (-) TimerEvent: {}
+[8.886497] (motor_driver) StdoutLine: {'line': b'[ 87%] Built target motor_driver__rosidl_generator_py\n'}
+[8.922845] (motor_driver) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/motor_driver_s__rosidl_typesupport_c.dir/rosidl_generator_py/motor_driver/_motor_driver_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.923463] (motor_driver) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/motor_driver_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/motor_driver/_motor_driver_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.931019] (-) TimerEvent: {}
+[8.934331] (motor_driver) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/motor_driver_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/motor_driver/_motor_driver_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.031301] (-) TimerEvent: {}
+[9.050176] (motor_driver) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/motor_driver/motor_driver_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.050906] (motor_driver) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/motor_driver/motor_driver_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.072312] (motor_driver) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/motor_driver/motor_driver_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.087228] (motor_driver) StdoutLine: {'line': b'[ 98%] Built target motor_driver_s__rosidl_typesupport_c\n'}
+[9.099405] (motor_driver) StdoutLine: {'line': b'[ 98%] Built target motor_driver_s__rosidl_typesupport_fastrtps_c\n'}
+[9.131503] (-) TimerEvent: {}
+[9.140218] (motor_driver) StdoutLine: {'line': b'[ 98%] Built target motor_driver_s__rosidl_typesupport_introspection_c\n'}
+[9.231700] (-) TimerEvent: {}
+[9.332226] (-) TimerEvent: {}
+[9.432686] (-) TimerEvent: {}
+[9.533252] (-) TimerEvent: {}
+[9.634025] (-) TimerEvent: {}
+[9.734669] (-) TimerEvent: {}
+[9.835276] (-) TimerEvent: {}
+[9.935852] (-) TimerEvent: {}
+[10.036250] (-) TimerEvent: {}
+[10.136565] (-) TimerEvent: {}
+[10.236872] (-) TimerEvent: {}
+[10.337276] (-) TimerEvent: {}
+[10.437679] (-) TimerEvent: {}
+[10.538019] (-) TimerEvent: {}
+[10.638410] (-) TimerEvent: {}
+[10.738757] (-) TimerEvent: {}
+[10.839097] (-) TimerEvent: {}
+[10.939487] (-) TimerEvent: {}
+[11.040023] (-) TimerEvent: {}
+[11.140438] (-) TimerEvent: {}
+[11.240874] (-) TimerEvent: {}
+[11.341281] (-) TimerEvent: {}
+[11.441816] (-) TimerEvent: {}
+[11.542443] (-) TimerEvent: {}
+[11.643085] (-) TimerEvent: {}
+[11.743980] (-) TimerEvent: {}
+[11.844448] (-) TimerEvent: {}
+[11.944853] (-) TimerEvent: {}
+[12.045184] (-) TimerEvent: {}
+[12.145591] (-) TimerEvent: {}
+[12.246045] (-) TimerEvent: {}
+[12.346398] (-) TimerEvent: {}
+[12.446742] (-) TimerEvent: {}
+[12.547079] (-) TimerEvent: {}
+[12.647449] (-) TimerEvent: {}
+[12.747883] (-) TimerEvent: {}
+[12.848319] (-) TimerEvent: {}
+[12.948771] (-) TimerEvent: {}
+[13.049210] (-) TimerEvent: {}
+[13.149664] (-) TimerEvent: {}
+[13.250094] (-) TimerEvent: {}
+[13.350516] (-) TimerEvent: {}
+[13.450974] (-) TimerEvent: {}
+[13.551392] (-) TimerEvent: {}
+[13.651820] (-) TimerEvent: {}
+[13.752248] (-) TimerEvent: {}
+[13.852690] (-) TimerEvent: {}
+[13.953151] (-) TimerEvent: {}
+[14.053594] (-) TimerEvent: {}
+[14.154049] (-) TimerEvent: {}
+[14.254495] (-) TimerEvent: {}
+[14.354948] (-) TimerEvent: {}
+[14.455376] (-) TimerEvent: {}
+[14.555811] (-) TimerEvent: {}
+[14.656236] (-) TimerEvent: {}
+[14.756704] (-) TimerEvent: {}
+[14.857259] (-) TimerEvent: {}
+[14.957823] (-) TimerEvent: {}
+[15.058308] (-) TimerEvent: {}
+[15.158950] (-) TimerEvent: {}
+[15.259487] (-) TimerEvent: {}
+[15.359973] (-) TimerEvent: {}
+[15.460408] (-) TimerEvent: {}
+[15.560826] (-) TimerEvent: {}
+[15.661246] (-) TimerEvent: {}
+[15.761681] (-) TimerEvent: {}
+[15.862146] (-) TimerEvent: {}
+[15.962594] (-) TimerEvent: {}
+[16.063095] (-) TimerEvent: {}
+[16.163698] (-) TimerEvent: {}
+[16.264305] (-) TimerEvent: {}
+[16.364910] (-) TimerEvent: {}
+[16.465312] (-) TimerEvent: {}
+[16.497377] (motor_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable motor_driver_node\x1b[0m\n'}
+[16.565500] (-) TimerEvent: {}
+[16.666018] (-) TimerEvent: {}
+[16.766446] (-) TimerEvent: {}
+[16.861838] (motor_driver) StdoutLine: {'line': b'[100%] Built target motor_driver_node\n'}
+[16.866519] (-) TimerEvent: {}
+[16.887616] (motor_driver) CommandEnded: {'returncode': 0}
+[16.889001] (motor_driver) JobProgress: {'identifier': 'motor_driver', 'progress': 'install'}
+[16.904962] (motor_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver'], 'cwd': '/home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver', 'env': OrderedDict({'USER': 'earnest', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/earnest/hyundai_amr_driver', 'HOME': '/home/earnest', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/earnest/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '2278', 'SYSTEMD_EXEC_PID': '3611', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '638730', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/earnest/hyundai_amr_driver/ros2_ws/install', 'LOGNAME': 'earnest', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '9:34904', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'earnest', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/earnest:@/tmp/.ICE-unix/2979,unix/earnest:/tmp/.ICE-unix/2979', 'INVOCATION_ID': '02dfffdd3c024695a504c5c53eaa02a1', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YVQ9B3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:b4774634-b777-4c8e-b9d7-9130ca9e0f0b', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'ROS_MASTER_URI': 'http://localhost:11311', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'ROS_HOSTNAME': 'localhost', 'PYTHONPATH': '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[16.916684] (motor_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.916924] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/ament_index/resource_index/rosidl_interfaces/motor_driver\n'}
+[16.917118] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/msg/MotorStatus.json\n'}
+[16.917220] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/msg/MotorAlarm.json\n'}
+[16.917366] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/srv/GetDiagnostics.json\n'}
+[16.917545] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver\n'}
+[16.917620] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg\n'}
+[16.917695] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/motor_alarm.h\n'}
+[16.917779] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/motor_status.h\n'}
+[16.917858] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.918001] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail\n'}
+[16.918092] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__functions.h\n'}
+[16.918172] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__description.c\n'}
+[16.918253] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__description.c\n'}
+[16.918337] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__struct.h\n'}
+[16.918416] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__functions.h\n'}
+[16.918523] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__type_support.c\n'}
+[16.918692] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__type_support.c\n'}
+[16.918780] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__functions.c\n'}
+[16.918862] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__type_support.h\n'}
+[16.918952] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__functions.c\n'}
+[16.919092] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__type_support.h\n'}
+[16.919172] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__struct.h\n'}
+[16.919246] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv\n'}
+[16.919325] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail\n'}
+[16.919400] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__type_support.c\n'}
+[16.919475] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__functions.c\n'}
+[16.919550] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__description.c\n'}
+[16.919624] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__functions.h\n'}
+[16.919700] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__type_support.h\n'}
+[16.919811] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__struct.h\n'}
+[16.919947] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/get_diagnostics.h\n'}
+[16.920030] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/environment/library_path.sh\n'}
+[16.920107] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/environment/library_path.dsv\n'}
+[16.920224] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_generator_c.so\n'}
+[16.920299] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_generator_c.so" to ""\n'}
+[16.920372] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver\n'}
+[16.920443] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg\n'}
+[16.920516] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail\n'}
+[16.920627] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__rosidl_typesupport_fastrtps_c.h\n'}
+[16.920709] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__rosidl_typesupport_fastrtps_c.h\n'}
+[16.920794] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.920939] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv\n'}
+[16.921016] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail\n'}
+[16.921090] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__rosidl_typesupport_fastrtps_c.h\n'}
+[16.921164] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_fastrtps_c.so\n'}
+[16.921237] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[16.921308] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver\n'}
+[16.921383] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg\n'}
+[16.921456] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[16.921529] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/motor_status.hpp\n'}
+[16.921602] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail\n'}
+[16.921702] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__traits.hpp\n'}
+[16.921886] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__struct.hpp\n'}
+[16.921969] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__type_support.hpp\n'}
+[16.922044] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__traits.hpp\n'}
+[16.922117] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__builder.hpp\n'}
+[16.922191] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__builder.hpp\n'}
+[16.922263] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__struct.hpp\n'}
+[16.922336] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__type_support.hpp\n'}
+[16.922408] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/motor_alarm.hpp\n'}
+[16.922477] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv\n'}
+[16.922545] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/get_diagnostics.hpp\n'}
+[16.922623] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail\n'}
+[16.922695] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__type_support.hpp\n'}
+[16.922784] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__struct.hpp\n'}
+[16.922853] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__builder.hpp\n'}
+[16.922926] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__traits.hpp\n'}
+[16.923023] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver\n'}
+[16.923175] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg\n'}
+[16.923329] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.923406] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail\n'}
+[16.923478] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.923549] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.923619] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/dds_fastrtps\n'}
+[16.923690] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv\n'}
+[16.923768] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail\n'}
+[16.923840] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.923911] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/dds_fastrtps\n'}
+[16.923977] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.924052] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[16.924126] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver\n'}
+[16.924198] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg\n'}
+[16.924271] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.924372] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail\n'}
+[16.924445] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__rosidl_typesupport_introspection_c.h\n'}
+[16.924514] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__type_support.c\n'}
+[16.924584] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__rosidl_typesupport_introspection_c.h\n'}
+[16.924653] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__type_support.c\n'}
+[16.924733] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv\n'}
+[16.924803] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail\n'}
+[16.924874] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__rosidl_typesupport_introspection_c.h\n'}
+[16.924948] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__type_support.c\n'}
+[16.925085] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_introspection_c.so\n'}
+[16.925164] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_introspection_c.so" to ""\n'}
+[16.925236] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_c.so\n'}
+[16.925308] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_c.so" to ""\n'}
+[16.925427] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver\n'}
+[16.925498] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg\n'}
+[16.925568] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail\n'}
+[16.925640] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.925713] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_alarm__type_support.cpp\n'}
+[16.925791] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__type_support.cpp\n'}
+[16.925861] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/msg/detail/motor_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.925975] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv\n'}
+[16.926038] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail\n'}
+[16.926106] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.926173] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/include/motor_driver/motor_driver/srv/detail/get_diagnostics__type_support.cpp\n'}
+[16.926246] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_introspection_cpp.so\n'}
+[16.926315] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[16.926387] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_cpp.so\n'}
+[16.926458] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_typesupport_cpp.so" to ""\n'}
+[16.926525] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/environment/pythonpath.sh\n'}
+[16.926596] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/environment/pythonpath.dsv\n'}
+[16.926667] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver-0.0.0-py3.12.egg-info\n'}
+[16.926744] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[16.926815] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[16.926884] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[16.926951] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[16.927049] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver\n'}
+[16.927163] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_c.so\n'}
+[16.927242] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_fastrtps_c.so\n'}
+[16.927315] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/_motor_driver_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[16.927430] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/_motor_driver_s.ep.rosidl_typesupport_c.c\n'}
+[16.927504] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_introspection_c.so\n'}
+[16.927610] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg\n'}
+[16.927683] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/_motor_alarm_s.c\n'}
+[16.927764] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/_motor_status.py\n'}
+[16.927837] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/_motor_status_s.c\n'}
+[16.927910] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/_motor_alarm.py\n'}
+[16.928009] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/__init__.py\n'}
+[16.928126] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/srv\n'}
+[16.928194] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/srv/_get_diagnostics_s.c\n'}
+[16.928259] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/srv/_get_diagnostics.py\n'}
+[16.928325] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/srv/__init__.py\n'}
+[16.928387] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/__init__.py\n'}
+[16.928450] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/_motor_driver_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[16.966670] (-) TimerEvent: {}
+[16.981056] (motor_driver) StdoutLine: {'line': b"Listing '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver'...\n"}
+[16.981316] (motor_driver) StdoutLine: {'line': b"Compiling '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/__init__.py'...\n"}
+[16.981414] (motor_driver) StdoutLine: {'line': b"Listing '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg'...\n"}
+[16.981500] (motor_driver) StdoutLine: {'line': b"Compiling '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/__init__.py'...\n"}
+[16.981582] (motor_driver) StdoutLine: {'line': b"Compiling '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/_motor_alarm.py'...\n"}
+[16.981660] (motor_driver) StdoutLine: {'line': b"Compiling '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/msg/_motor_status.py'...\n"}
+[16.981761] (motor_driver) StdoutLine: {'line': b"Listing '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/srv'...\n"}
+[16.981840] (motor_driver) StdoutLine: {'line': b"Compiling '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/srv/__init__.py'...\n"}
+[16.981916] (motor_driver) StdoutLine: {'line': b"Compiling '/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/srv/_get_diagnostics.py'...\n"}
+[16.987140] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_fastrtps_c.so\n'}
+[16.987375] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[16.987672] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_introspection_c.so\n'}
+[16.987881] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[16.988169] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_c.so\n'}
+[16.988357] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/python3.12/site-packages/motor_driver/motor_driver_s__rosidl_typesupport_c.so" to ""\n'}
+[16.988468] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_generator_py.so\n'}
+[16.988908] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/libmotor_driver__rosidl_generator_py.so" to ""\n'}
+[16.989100] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/msg/MotorStatus.idl\n'}
+[16.989195] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/msg/MotorAlarm.idl\n'}
+[16.989306] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/srv/GetDiagnostics.idl\n'}
+[16.989403] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/msg/MotorStatus.msg\n'}
+[16.989481] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/msg/MotorAlarm.msg\n'}
+[16.989581] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/srv/GetDiagnostics.srv\n'}
+[16.989889] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/motor_driver/motor_driver_node\n'}
+[16.997148] (motor_driver) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/lib/motor_driver/motor_driver_node" to ""\n'}
+[16.997328] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/ament_index/resource_index/package_run_dependencies/motor_driver\n'}
+[16.997456] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/ament_index/resource_index/parent_prefix_path/motor_driver\n'}
+[16.997586] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/environment/ament_prefix_path.sh\n'}
+[16.997727] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/environment/ament_prefix_path.dsv\n'}
+[16.997827] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/environment/path.sh\n'}
+[16.997940] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/environment/path.dsv\n'}
+[16.998070] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/local_setup.bash\n'}
+[16.998170] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/local_setup.sh\n'}
+[16.998321] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/local_setup.zsh\n'}
+[16.998476] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/local_setup.dsv\n'}
+[16.998570] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/package.dsv\n'}
+[16.998907] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/ament_index/resource_index/packages/motor_driver\n'}
+[16.999098] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_generator_cExport.cmake\n'}
+[16.999235] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_generator_cExport-noconfig.cmake\n'}
+[16.999343] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[16.999586] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[16.999788] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_generator_cppExport.cmake\n'}
+[16.999876] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[16.999981] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[17.000083] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_introspection_cExport.cmake\n'}
+[17.000202] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[17.000334] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_cExport.cmake\n'}
+[17.000462] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[17.000582] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[17.000738] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[17.000836] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_cppExport.cmake\n'}
+[17.000984] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driver__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[17.001140] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_generator_pyExport.cmake\n'}
+[17.001371] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driver__rosidl_generator_pyExport-noconfig.cmake\n'}
+[17.001539] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/rosidl_cmake-extras.cmake\n'}
+[17.001658] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.001751] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.001856] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.001969] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.002058] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[17.002167] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[17.002321] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driverConfig.cmake\n'}
+[17.002395] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/cmake/motor_driverConfig-version.cmake\n'}
+[17.002485] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver/share/motor_driver/package.xml\n'}
+[17.007047] (motor_driver) CommandEnded: {'returncode': 0}
+[17.038676] (motor_driver) JobEnded: {'identifier': 'motor_driver', 'rc': 0}
+[17.040023] (-) EventReactorShutdown: {}

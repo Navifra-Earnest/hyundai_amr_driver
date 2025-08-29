@@ -1,7 +1,7 @@
 CMakeFiles/motor_driver_node.dir/src/can_interface.cpp.o: \
- /home/earnest/ros2_ws/src/motor_driver/src/can_interface.cpp \
+ /home/earnest/hyundai_amr_driver/ros2_ws/src/motor_driver/src/can_interface.cpp \
  /usr/include/stdc-predef.h \
- /home/earnest/ros2_ws/src/motor_driver/include/motor_driver/can_interface.hpp \
+ /home/earnest/hyundai_amr_driver/ros2_ws/src/motor_driver/include/motor_driver/can_interface.hpp \
  /usr/include/linux/can.h /usr/include/linux/types.h \
  /usr/include/x86_64-linux-gnu/asm/types.h \
  /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \

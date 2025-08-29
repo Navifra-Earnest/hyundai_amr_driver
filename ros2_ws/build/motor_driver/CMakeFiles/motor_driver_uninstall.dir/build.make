@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/earnest/ros2_ws/src/motor_driver
+CMAKE_SOURCE_DIR = /home/earnest/hyundai_amr_driver/ros2_ws/src/motor_driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/earnest/ros2_ws/build/motor_driver
+CMAKE_BINARY_DIR = /home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver
 
 # Utility rule file for motor_driver_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/motor_driver_uninstall.dir/compiler_depend.make
 include CMakeFiles/motor_driver_uninstall.dir/progress.make
 
 CMakeFiles/motor_driver_uninstall:
-	/usr/bin/cmake -P /home/earnest/ros2_ws/build/motor_driver/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 motor_driver_uninstall: CMakeFiles/motor_driver_uninstall
 motor_driver_uninstall: CMakeFiles/motor_driver_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/motor_driver_uninstall.dir/clean:
 .PHONY : CMakeFiles/motor_driver_uninstall.dir/clean
 
 CMakeFiles/motor_driver_uninstall.dir/depend:
-	cd /home/earnest/ros2_ws/build/motor_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/earnest/ros2_ws/src/motor_driver /home/earnest/ros2_ws/src/motor_driver /home/earnest/ros2_ws/build/motor_driver /home/earnest/ros2_ws/build/motor_driver /home/earnest/ros2_ws/build/motor_driver/CMakeFiles/motor_driver_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/earnest/hyundai_amr_driver/ros2_ws/src/motor_driver /home/earnest/hyundai_amr_driver/ros2_ws/src/motor_driver /home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver /home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver /home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver/CMakeFiles/motor_driver_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/motor_driver_uninstall.dir/depend
 

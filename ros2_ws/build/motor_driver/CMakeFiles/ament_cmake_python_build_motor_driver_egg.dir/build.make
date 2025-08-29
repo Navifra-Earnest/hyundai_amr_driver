@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/earnest/ros2_ws/src/motor_driver
+CMAKE_SOURCE_DIR = /home/earnest/hyundai_amr_driver/ros2_ws/src/motor_driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/earnest/ros2_ws/build/motor_driver
+CMAKE_BINARY_DIR = /home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver
 
 # Utility rule file for ament_cmake_python_build_motor_driver_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_motor_driver_egg.dir/compiler_depend
 include CMakeFiles/ament_cmake_python_build_motor_driver_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_motor_driver_egg:
-	cd /home/earnest/ros2_ws/build/motor_driver/ament_cmake_python/motor_driver && /usr/bin/python3 setup.py egg_info
+	cd /home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver/ament_cmake_python/motor_driver && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_motor_driver_egg: CMakeFiles/ament_cmake_python_build_motor_driver_egg
 ament_cmake_python_build_motor_driver_egg: CMakeFiles/ament_cmake_python_build_motor_driver_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_motor_driver_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_motor_driver_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_motor_driver_egg.dir/depend:
-	cd /home/earnest/ros2_ws/build/motor_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/earnest/ros2_ws/src/motor_driver /home/earnest/ros2_ws/src/motor_driver /home/earnest/ros2_ws/build/motor_driver /home/earnest/ros2_ws/build/motor_driver /home/earnest/ros2_ws/build/motor_driver/CMakeFiles/ament_cmake_python_build_motor_driver_egg.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/earnest/hyundai_amr_driver/ros2_ws/src/motor_driver /home/earnest/hyundai_amr_driver/ros2_ws/src/motor_driver /home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver /home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver /home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver/CMakeFiles/ament_cmake_python_build_motor_driver_egg.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_build_motor_driver_egg.dir/depend
 

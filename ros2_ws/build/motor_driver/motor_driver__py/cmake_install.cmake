@@ -1,8 +1,8 @@
-# Install script for directory: /home/earnest/ros2_ws/build/motor_driver/motor_driver__py
+# Install script for directory: /home/earnest/hyundai_amr_driver/ros2_ws/build/motor_driver/motor_driver__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/earnest/ros2_ws/install/motor_driver")
+  set(CMAKE_INSTALL_PREFIX "/home/earnest/hyundai_amr_driver/ros2_ws/install/motor_driver")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

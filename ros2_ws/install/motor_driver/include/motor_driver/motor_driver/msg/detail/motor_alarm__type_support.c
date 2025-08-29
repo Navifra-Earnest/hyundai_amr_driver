@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "motor_driver/msg/detail/motor_alarm__type_support.h"
-#include "motor_driver/msg/detail/motor_alarm__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "motor_driver/msg/detail/motor_alarm__type_support.h"
 #include "motor_driver/msg/detail/motor_alarm__struct.h"
+#include "motor_driver/msg/detail/motor_alarm__functions.h"
 
 #ifdef __cplusplus
 extern "C"
