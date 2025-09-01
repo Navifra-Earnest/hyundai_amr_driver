@@ -1,10 +1,23 @@
 # hyundai_amr_driver
-현대표준플랫폼
+* 현대표준amr
 
 
-### cd ~/hyundai_amr_driver/ros2_ws/ 에서 작업
+## cd ~/hyundai_amr_driver/ros2_ws/ 
+
+### Local 에서 작업시 (ros2)
 ```bash
 source ~/hyundai_amr_driver/ros2_ws/install/setup.zsh
+```
+
+### docker에서 작업시 (ros2 humble)
+```bash
+ docker compose up
+```
+```bash
+docker exec -it navifra bash
+```
+```bash
+source install/setup.bash
 ```
 ---
 
