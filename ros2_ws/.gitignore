@@ -1,0 +1,15 @@
+# ROS 2 colcon-generated directories
+build/
+install/
+log/
+
+# C++ build artifacts
+*.o
+*.so
+*.a
+*.out
+
+# IDE-specific files
+.vscode/
+*.swp
+*~
