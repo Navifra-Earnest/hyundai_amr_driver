@@ -1,8 +1,6 @@
 # 베이스 이미지로 ROS 2 Humble을 사용합니다.
 FROM ros:humble-ros-base
 
-ENV ROS_DOMAIN_ID=0
-
 # 필요한 시스템 패키지 설치: can-utils, git, 그리고 Boost 라이브러리 추가
 RUN apt-get update && apt-get install -y \
     can-utils \
