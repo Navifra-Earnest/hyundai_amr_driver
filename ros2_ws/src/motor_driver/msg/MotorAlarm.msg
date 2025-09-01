@@ -1,6 +1,4 @@
-# motor_driver/msg/MotorAlarm.msg
-
 std_msgs/Header header
 
-uint8 level              # 0: Info, 1: Warning, 2: Error, 3: Critical
-string message           # 알람/에러 내용
+uint16 error_code       # 모터 드라이버의 원본 에러 코드 (Hex)
+string message          # 사람이 읽을 수 있는 알람/에러 내용

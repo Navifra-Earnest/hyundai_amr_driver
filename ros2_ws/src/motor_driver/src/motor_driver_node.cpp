@@ -46,7 +46,8 @@ CallbackReturn MotorDriverNode::on_configure(const rclcpp_lifecycle::State &)
         feed_vel_pubs_[node_id] = this->create_publisher<std_msgs::msg::Float32>("/motor" + id_str + "/feedVel", 10);
         status_pubs_[node_id] = this->create_publisher<motor_driver::msg::MotorStatus>("/motor" + id_str + "/status", 10);
     }
-    
+    alarm_pub_ = this->create_publisher<motor_driver::msg::MotorAlarm>("/alarm/motor", 10);
+
     diag_service_ = this->create_service<motor_driver::srv::GetDiagnostics>(
         "/diagnostics/motor",
         [this](const std::shared_ptr<motor_driver::srv::GetDiagnostics::Request> request,
@@ -86,6 +87,9 @@ CallbackReturn MotorDriverNode::on_activate(const rclcpp_lifecycle::State &)
         pub->on_activate();
     }
 
+    // alarm_pub_ 활성화
+    alarm_pub_->on_activate();
+
     // 모터 활성화 (Servo ON)
     controller_->enable_motor();
 
@@ -106,6 +110,9 @@ CallbackReturn MotorDriverNode::on_deactivate(const rclcpp_lifecycle::State &)
 
     // 모터 비활성화 (Servo OFF)
     controller_->disable_motor();
+
+    // alarm_pub_ 비활성화
+    alarm_pub_->on_deactivate();
 
     // Lifecycle Publisher 비활성화
     for(auto const& [node_id, pub] : feed_vel_pubs_) {
@@ -130,6 +137,7 @@ CallbackReturn MotorDriverNode::on_cleanup(const rclcpp_lifecycle::State &)
     target_vel_subs_.clear();
     feed_vel_pubs_.clear();
     status_pubs_.clear();
+    alarm_pub_.reset();
     controller_.reset();
 
     RCLCPP_INFO(this->get_logger(), "Cleanup successful.");
@@ -147,6 +155,7 @@ CallbackReturn MotorDriverNode::on_shutdown(const rclcpp_lifecycle::State &)
     target_vel_subs_.clear();
     feed_vel_pubs_.clear();
     status_pubs_.clear();
+    alarm_pub_.reset();
     controller_.reset();
 
     RCLCPP_INFO(this->get_logger(), "Shutdown successful.");
@@ -167,6 +176,14 @@ void MotorDriverNode::control_loop()
         status_msg.header.frame_id = "motor" + std::to_string(node_id) + "_link";
         if (status_pubs_[node_id]->is_activated()) {
             status_pubs_[node_id]->publish(status_msg);
+        }
+
+        auto alarm_msg = controller_->get_alarm(node_id);
+        if (alarm_msg.has_value()) {
+            if (alarm_pub_->is_activated()) {
+                alarm_msg->header.stamp = this->now();
+                alarm_pub_->publish(alarm_msg.value());
+            }
         }
     }
 }
