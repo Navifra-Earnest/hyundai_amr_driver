@@ -7,7 +7,7 @@ MotorDriverNode::MotorDriverNode(const rclcpp::NodeOptions & options)
 {
     // 파라미터 선언은 생성자에서 수행
     this->declare_parameter<std::string>("can_device", "can0");
-    this->declare_parameter<double>("control_frequency", 100.0);
+    this->declare_parameter<double>("control_frequency", 50.0);
     this->declare_parameter<std::vector<int64_t>>("node_ids", {1, 2});
 }
 
@@ -46,8 +46,10 @@ CallbackReturn MotorDriverNode::on_configure(const rclcpp_lifecycle::State &)
         feed_vel_pubs_[node_id] = this->create_publisher<std_msgs::msg::Float32>("/motor" + id_str + "/feedVel", 10);
         status_pubs_[node_id] = this->create_publisher<motor_driver::msg::MotorStatus>("/motor" + id_str + "/status", 10);
     }
+    
+    // 알람 퍼블리셔 생성
     alarm_pub_ = this->create_publisher<motor_driver::msg::MotorAlarm>("/alarm/motor", 10);
-
+    
     diag_service_ = this->create_service<motor_driver::srv::GetDiagnostics>(
         "/diagnostics/motor",
         [this](const std::shared_ptr<motor_driver::srv::GetDiagnostics::Request> request,
@@ -86,9 +88,7 @@ CallbackReturn MotorDriverNode::on_activate(const rclcpp_lifecycle::State &)
     for(auto const& [node_id, pub] : status_pubs_) {
         pub->on_activate();
     }
-
-    // alarm_pub_ 활성화
-    alarm_pub_->on_activate();
+    alarm_pub_->on_activate(); // 알람 퍼블리셔 활성화
 
     // 모터 활성화 (Servo ON)
     controller_->enable_motor();
@@ -111,9 +111,6 @@ CallbackReturn MotorDriverNode::on_deactivate(const rclcpp_lifecycle::State &)
     // 모터 비활성화 (Servo OFF)
     controller_->disable_motor();
 
-    // alarm_pub_ 비활성화
-    alarm_pub_->on_deactivate();
-
     // Lifecycle Publisher 비활성화
     for(auto const& [node_id, pub] : feed_vel_pubs_) {
         pub->on_deactivate();
@@ -121,6 +118,7 @@ CallbackReturn MotorDriverNode::on_deactivate(const rclcpp_lifecycle::State &)
     for(auto const& [node_id, pub] : status_pubs_) {
         pub->on_deactivate();
     }
+    alarm_pub_->on_deactivate(); // 알람 퍼블리셔 비활성화
 
     RCLCPP_INFO(this->get_logger(), "Deactivation successful. Motors are now inactive.");
     return CallbackReturn::SUCCESS;
@@ -178,12 +176,11 @@ void MotorDriverNode::control_loop()
             status_pubs_[node_id]->publish(status_msg);
         }
 
+        // 알람 확인 및 발행
         auto alarm_msg = controller_->get_alarm(node_id);
-        if (alarm_msg.has_value()) {
-            if (alarm_pub_->is_activated()) {
-                alarm_msg->header.stamp = this->now();
-                alarm_pub_->publish(alarm_msg.value());
-            }
+        if (alarm_msg && alarm_pub_->is_activated()) {
+            alarm_msg->header.stamp = this->now();
+            alarm_pub_->publish(*alarm_msg);
         }
     }
 }
@@ -198,3 +195,4 @@ int main(int argc, char * argv[]) {
     rclcpp::shutdown();
     return 0;
 }
+

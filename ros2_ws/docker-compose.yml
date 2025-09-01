@@ -1,0 +1,17 @@
+# docker-compose.yml
+
+version: '3.8'
+services:
+  navifra:
+    image: navifra-driver
+    container_name: navifra
+
+    stdin_open: true
+    tty: true
+
+    network_mode: "host"
+    environment:
+      - DISPLAY=${DISPLAY}
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ~/ros2_ws:/root/ros2_ws

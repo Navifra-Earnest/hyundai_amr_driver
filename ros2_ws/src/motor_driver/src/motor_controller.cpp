@@ -142,7 +142,7 @@ void MotorController::sync_loop() {
         if (can_if_) {
             can_if_->write(SYNC_ID, nullptr, 0);
         }
-        std::this_thread::sleep_for(std::chrono::milliseconds(10)); // 100Hz
+        std::this_thread::sleep_for(std::chrono::milliseconds(50)); // 20Hz
     }
 }
 

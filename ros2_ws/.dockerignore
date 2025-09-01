@@ -1,0 +1,6 @@
+build/
+install/
+log/
+
+# Git 관련 폴더 제외
+.git/
