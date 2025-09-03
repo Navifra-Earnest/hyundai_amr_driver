@@ -171,7 +171,7 @@ void MotorDriverNode::control_loop()
         
         auto status_msg = controller_->get_status(node_id);
         status_msg.header.stamp = this->now();
-        status_msg.header.frame_id = "motor" + std::to_string(node_id) + "_link";
+        status_msg.header.frame_id = "motor" + std::to_string(node_id) + "_status";
         if (status_pubs_[node_id]->is_activated()) {
             status_pubs_[node_id]->publish(status_msg);
         }
@@ -180,6 +180,7 @@ void MotorDriverNode::control_loop()
         auto alarm_msg = controller_->get_alarm(node_id);
         if (alarm_msg && alarm_pub_->is_activated()) {
             alarm_msg->header.stamp = this->now();
+            alarm_msg->header.frame_id = "motor" + std::to_string(node_id) + "_alarm";
             alarm_pub_->publish(*alarm_msg);
         }
     }
