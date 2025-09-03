@@ -1,0 +1,78 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build: Local (colcon)",
+            "type": "shell",
+            "command": "colcon build --packages-select motor_driver",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$colcon"
+            ],
+            "detail": "로컬 환경(Linux)에서 motor_driver 패키지를 빌드합니다."
+        },
+        {
+            "label": "Build: Cross-Compile for ARM64",
+            "type": "shell",
+            "command": "docker buildx build --platform linux/arm64 -t motor_driver_cross_compiled -f Dockerfile.cross-compile . --load",
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "Docker를 사용하여 linux/arm64 아키텍처용으로 소스를 빌드합니다."
+        },
+        {
+            "label": "Extract: Create Temp Container",
+            "type": "shell",
+            "command": "docker create --name temp_container motor_driver_cross_compiled",
+            "problemMatcher": [],
+            "detail": "빌드 결과물을 복사하기 위해 임시 컨테이너를 생성합니다."
+        },
+        {
+            "label": "Extract: Copy install_arm64 Folder",
+            "type": "shell",
+            "command": "docker cp temp_container:/install_arm64 ./",
+            "problemMatcher": [],
+            "detail": "임시 컨테이너에서 빌드 결과물(install_arm64)을 복사합니다."
+        },
+        {
+            "label": "Extract: Remove Temp Container",
+            "type": "shell",
+            "command": "docker rm temp_container",
+            "problemMatcher": [],
+            "detail": "임시 컨테이너를 삭제합니다."
+        },
+        {
+            "label": "Deploy: Compress install_arm64",
+            "type": "shell",
+            "command": "tar -czvf install_arm64.tar.gz install_arm64",
+            "problemMatcher": [],
+            "detail": "ARM 컴퓨터에 배포하기 위해 install_arm64 폴더를 압축합니다."
+        },
+        {
+            "label": "Pipeline: Build and Extract Artifacts",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "Build: Cross-Compile for ARM64",
+                "Extract: Create Temp Container",
+                "Extract: Copy install_arm64 Folder",
+                "Extract: Remove Temp Container"
+            ],
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "ARM64 빌드부터 결과물 추출까지 모든 과정을 순차적으로 실행합니다."
+        },
+        {
+            "label": "Pipeline: Full Process (Build, Extract, Compress)",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "Pipeline: Build and Extract Artifacts",
+                "Deploy: Compress install_arm64"
+            ],
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "빌드, 추출, 압축까지 모든 단계를 한번에 실행합니다."
+        }
+    ]
+}
