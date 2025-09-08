@@ -19,7 +19,6 @@ CanInterface::~CanInterface() {
 }
 
 bool CanInterface::open(const std::string& can_device) {
-    // ... (기존 코드와 동일) ...
     can_fd_ = socket(PF_CAN, SOCK_RAW, CAN_RAW);
     if (can_fd_ < 0) {
         perror("Socket");
@@ -108,14 +107,23 @@ void CanInterface::register_callback(const std::function<void(const can_frame&)>
 }
 
 void CanInterface::read_loop() {
-    // ... (기존 코드와 동일) ...
     while (is_running_) {
+        if (can_fd_ < 0) {
+            std::this_thread::sleep_for(std::chrono::milliseconds(100));
+            continue;
+        }
+
         can_frame frame;
         ssize_t nbytes = read(can_fd_, &frame, sizeof(struct can_frame));
+
+        if (nbytes < 0) {
+            // non-blocking 소켓에서 읽을 데이터가 없음
+            std::this_thread::sleep_for(std::chrono::milliseconds(1));
+            continue;
+        }
+
         if (nbytes == sizeof(struct can_frame) && callback_) {
             callback_(frame);
-        } else {
-            std::this_thread::sleep_for(std::chrono::milliseconds(1));
         }
     }
 }

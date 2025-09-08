@@ -66,22 +66,18 @@ void MotorController::init(const std::string& can_device, const std::vector<uint
         can_if_->write(NMT_ID, {NMT_RESET_COMMUNICATION, node_id});
         std::this_thread::sleep_for(std::chrono::milliseconds(500)); 
 
-        // 2. RPDO1 Mapping (COB-ID: 0x200 + NodeID)
-        // 2.1 Disable RPDO1
+        // 2. RPDO1 Mapping (COB-ID: 0x200 + NodeID) , Control word, Mode of operation
         uint32_t rpdo1_cob_id_disabled = 0x80000000 | (RPDO1_ID_BASE + node_id);
         can_if_->write(SDO_RX_ID_BASE + node_id, 0x23, 0x00, 0x14, 1, rpdo1_cob_id_disabled & 0xFF, (rpdo1_cob_id_disabled >> 8) & 0xFF, (rpdo1_cob_id_disabled >> 16) & 0xFF, (rpdo1_cob_id_disabled >> 24) & 0xFF); std::this_thread::sleep_for(std::chrono::milliseconds(20));
-        // 2.2 Set Transmission Type to 1 (SYNC)
         can_if_->write(SDO_RX_ID_BASE + node_id, 0x2F, 0x00, 0x14, 2, 1, 0, 0, 0); std::this_thread::sleep_for(std::chrono::milliseconds(20));
-        // 2.3 Set mapping
         can_if_->write(SDO_RX_ID_BASE + node_id, 0x2F, 0x00, 0x16, 0, 0, 0, 0, 0); std::this_thread::sleep_for(std::chrono::milliseconds(20));
         can_if_->write(SDO_RX_ID_BASE + node_id, 0x23, 0x00, 0x16, 1, 0x10, 0x00, 0x40, 0x60); std::this_thread::sleep_for(std::chrono::milliseconds(20)); // 0x60400010
         can_if_->write(SDO_RX_ID_BASE + node_id, 0x23, 0x00, 0x16, 2, 0x08, 0x00, 0x60, 0x60); std::this_thread::sleep_for(std::chrono::milliseconds(20)); // 0x60600008
         can_if_->write(SDO_RX_ID_BASE + node_id, 0x2F, 0x00, 0x16, 0, 2, 0, 0, 0); std::this_thread::sleep_for(std::chrono::milliseconds(20));
-        // 2.4 Enable RPDO1
         uint32_t rpdo1_cob_id_enabled = RPDO1_ID_BASE + node_id;
         can_if_->write(SDO_RX_ID_BASE + node_id, 0x23, 0x00, 0x14, 1, rpdo1_cob_id_enabled & 0xFF, (rpdo1_cob_id_enabled >> 8) & 0xFF, (rpdo1_cob_id_enabled >> 16) & 0xFF, (rpdo1_cob_id_enabled >> 24) & 0xFF); std::this_thread::sleep_for(std::chrono::milliseconds(20));
 
-        // 3. RPDO2 Mapping (COB-ID: 0x300 + NodeID)
+        // 3. RPDO2 Mapping (COB-ID: 0x300 + NodeID) , Target velocity, Target position
         uint32_t rpdo2_cob_id_disabled = 0x80000000 | (RPDO2_ID_BASE + node_id);
         can_if_->write(SDO_RX_ID_BASE + node_id, 0x23, 0x01, 0x14, 1, rpdo2_cob_id_disabled & 0xFF, (rpdo2_cob_id_disabled >> 8) & 0xFF, (rpdo2_cob_id_disabled >> 16) & 0xFF, (rpdo2_cob_id_disabled >> 24) & 0xFF); std::this_thread::sleep_for(std::chrono::milliseconds(20));
         can_if_->write(SDO_RX_ID_BASE + node_id, 0x2F, 0x01, 0x14, 2, 1, 0, 0, 0); std::this_thread::sleep_for(std::chrono::milliseconds(20));
@@ -92,7 +88,7 @@ void MotorController::init(const std::string& can_device, const std::vector<uint
         uint32_t rpdo2_cob_id_enabled = RPDO2_ID_BASE + node_id;
         can_if_->write(SDO_RX_ID_BASE + node_id, 0x23, 0x01, 0x14, 1, rpdo2_cob_id_enabled & 0xFF, (rpdo2_cob_id_enabled >> 8) & 0xFF, (rpdo2_cob_id_enabled >> 16) & 0xFF, (rpdo2_cob_id_enabled >> 24) & 0xFF); std::this_thread::sleep_for(std::chrono::milliseconds(20));
 
-        // 4. TPDO1 Mapping (COB-ID: 0x180 + NodeID)
+        // 4. TPDO1 Mapping (COB-ID: 0x180 + NodeID) , Status word, Mode of operation display
         uint32_t tpdo1_cob_id_disabled = 0x80000000 | (TPDO1_ID_BASE + node_id);
         can_if_->write(SDO_RX_ID_BASE + node_id, 0x23, 0x00, 0x18, 1, tpdo1_cob_id_disabled & 0xFF, (tpdo1_cob_id_disabled >> 8) & 0xFF, (tpdo1_cob_id_disabled >> 16) & 0xFF, (tpdo1_cob_id_disabled >> 24) & 0xFF); std::this_thread::sleep_for(std::chrono::milliseconds(20));
         can_if_->write(SDO_RX_ID_BASE + node_id, 0x2F, 0x00, 0x18, 2, 1, 0, 0, 0); std::this_thread::sleep_for(std::chrono::milliseconds(20));
@@ -103,7 +99,7 @@ void MotorController::init(const std::string& can_device, const std::vector<uint
         uint32_t tpdo1_cob_id_enabled = TPDO1_ID_BASE + node_id;
         can_if_->write(SDO_RX_ID_BASE + node_id, 0x23, 0x00, 0x18, 1, tpdo1_cob_id_enabled & 0xFF, (tpdo1_cob_id_enabled >> 8) & 0xFF, (tpdo1_cob_id_enabled >> 16) & 0xFF, (tpdo1_cob_id_enabled >> 24) & 0xFF); std::this_thread::sleep_for(std::chrono::milliseconds(20));
 
-        // 5. TPDO2 Mapping (COB-ID: 0x280 + NodeID)
+        // 5. TPDO2 Mapping (COB-ID: 0x280 + NodeID) , Velocity actual, Position actual
         uint32_t tpdo2_cob_id_disabled = 0x80000000 | (TPDO2_ID_BASE + node_id);
         can_if_->write(SDO_RX_ID_BASE + node_id, 0x23, 0x01, 0x18, 1, tpdo2_cob_id_disabled & 0xFF, (tpdo2_cob_id_disabled >> 8) & 0xFF, (tpdo2_cob_id_disabled >> 16) & 0xFF, (tpdo2_cob_id_disabled >> 24) & 0xFF); std::this_thread::sleep_for(std::chrono::milliseconds(20));
         can_if_->write(SDO_RX_ID_BASE + node_id, 0x2F, 0x01, 0x18, 2, 1, 0, 0, 0); std::this_thread::sleep_for(std::chrono::milliseconds(20));
@@ -114,7 +110,7 @@ void MotorController::init(const std::string& can_device, const std::vector<uint
         uint32_t tpdo2_cob_id_enabled = TPDO2_ID_BASE + node_id;
         can_if_->write(SDO_RX_ID_BASE + node_id, 0x23, 0x01, 0x18, 1, tpdo2_cob_id_enabled & 0xFF, (tpdo2_cob_id_enabled >> 8) & 0xFF, (tpdo2_cob_id_enabled >> 16) & 0xFF, (tpdo2_cob_id_enabled >> 24) & 0xFF); std::this_thread::sleep_for(std::chrono::milliseconds(20));
 
-        // 6. TPDO3 Mapping (COB-ID: 0x380 + NodeID)
+        // 6. TPDO3 Mapping (COB-ID: 0x380 + NodeID) , DC link voltage, Current actual, Error code
         uint32_t tpdo3_cob_id_disabled = 0x80000000 | (TPDO3_ID_BASE + node_id);
         can_if_->write(SDO_RX_ID_BASE + node_id, 0x23, 0x02, 0x18, 1, tpdo3_cob_id_disabled & 0xFF, (tpdo3_cob_id_disabled >> 8) & 0xFF, (tpdo3_cob_id_disabled >> 16) & 0xFF, (tpdo3_cob_id_disabled >> 24) & 0xFF); std::this_thread::sleep_for(std::chrono::milliseconds(20));
         can_if_->write(SDO_RX_ID_BASE + node_id, 0x2F, 0x02, 0x18, 2, 1, 0, 0, 0); std::this_thread::sleep_for(std::chrono::milliseconds(20));

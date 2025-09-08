@@ -5,7 +5,6 @@ using namespace std::chrono_literals;
 MotorDriverNode::MotorDriverNode(const rclcpp::NodeOptions & options)
 : rclcpp_lifecycle::LifecycleNode("motor_driver_node", options)
 {
-    // 파라미터 선언은 생성자에서 수행
     this->declare_parameter<std::string>("can_device", "can0");
     this->declare_parameter<double>("control_frequency", 50.0);
     this->declare_parameter<std::vector<int64_t>>("node_ids", {1, 2});
@@ -16,7 +15,6 @@ CallbackReturn MotorDriverNode::on_configure(const rclcpp_lifecycle::State &)
 {
     RCLCPP_INFO(this->get_logger(), "Configuring motor driver...");
 
-    // 파라미터 가져오기
     std::string can_device = this->get_parameter("can_device").as_string();
     double control_frequency = this->get_parameter("control_frequency").as_double();
     auto node_ids_long = this->get_parameter("node_ids").as_integer_array();
@@ -26,11 +24,9 @@ CallbackReturn MotorDriverNode::on_configure(const rclcpp_lifecycle::State &)
         node_ids_.push_back(static_cast<uint8_t>(id));
     }
 
-    // 모터 컨트롤러 객체 생성 및 CAN 초기화
     controller_ = std::make_shared<MotorController>();
     controller_->init(can_device, node_ids_);
 
-    // 각 노드 ID에 대해 Subscriber와 Publisher, Service 생성
     for (const auto& node_id : node_ids_) {
         std::string id_str = std::to_string(node_id);
         
@@ -47,7 +43,6 @@ CallbackReturn MotorDriverNode::on_configure(const rclcpp_lifecycle::State &)
         status_pubs_[node_id] = this->create_publisher<motor_driver::msg::MotorStatus>("/motor" + id_str + "/status", 10);
     }
     
-    // 알람 퍼블리셔 생성
     alarm_pub_ = this->create_publisher<motor_driver::msg::MotorAlarm>("/alarm/motor", 10);
     
     diag_service_ = this->create_service<motor_driver::srv::GetDiagnostics>(
@@ -63,13 +58,11 @@ CallbackReturn MotorDriverNode::on_configure(const rclcpp_lifecycle::State &)
             }
         });
         
-    // 제어 루프 타이머 생성 (아직 시작하지 않음)
     auto period = std::chrono::duration<double>(1.0 / control_frequency);
     control_timer_ = this->create_wall_timer(
         std::chrono::duration_cast<std::chrono::nanoseconds>(period),
         std::bind(&MotorDriverNode::control_loop, this));
     
-    // 타이머는 activate 상태가 될 때까지 비활성화
     control_timer_->cancel();
 
     RCLCPP_INFO(this->get_logger(), "Configuration successful.");
@@ -129,14 +122,14 @@ CallbackReturn MotorDriverNode::on_cleanup(const rclcpp_lifecycle::State &)
 {
     RCLCPP_INFO(this->get_logger(), "Cleaning up motor driver...");
 
-    // 모든 리소스 해제
-    control_timer_.reset();
-    diag_service_.reset();
-    target_vel_subs_.clear();
-    feed_vel_pubs_.clear();
-    status_pubs_.clear();
-    alarm_pub_.reset();
-    controller_.reset();
+    // // 모든 리소스 해제
+    // control_timer_.reset();
+    // diag_service_.reset();
+    // target_vel_subs_.clear();
+    // feed_vel_pubs_.clear();
+    // status_pubs_.clear();
+    // alarm_pub_.reset();
+    // controller_.reset();
 
     RCLCPP_INFO(this->get_logger(), "Cleanup successful.");
     return CallbackReturn::SUCCESS;
@@ -147,16 +140,33 @@ CallbackReturn MotorDriverNode::on_shutdown(const rclcpp_lifecycle::State &)
 {
     RCLCPP_INFO(this->get_logger(), "Shutting down motor driver...");
     
-    // 모든 리소스 해제
-    control_timer_.reset();
-    diag_service_.reset();
-    target_vel_subs_.clear();
-    feed_vel_pubs_.clear();
-    status_pubs_.clear();
-    alarm_pub_.reset();
-    controller_.reset();
+    // 제어 루프 타이머 정지
+    control_timer_->cancel();
+
+    // 종료 전, 모터 비활성화
+    controller_->disable_motor();
+    
+    // Lifecycle Publisher 비활성화
+    for(auto const& [node_id, pub] : feed_vel_pubs_) {
+        if (pub) pub->on_deactivate();
+    }
+    for(auto const& [node_id, pub] : status_pubs_) {
+        if (pub) pub->on_deactivate();
+    }
+    alarm_pub_->on_deactivate();
+    
+    
+    // // 모든 리소스 해제
+    // control_timer_.reset();
+    // diag_service_.reset();
+    // target_vel_subs_.clear();
+    // feed_vel_pubs_.clear();
+    // status_pubs_.clear();
+    // alarm_pub_.reset();
+    // controller_.reset();
 
     RCLCPP_INFO(this->get_logger(), "Shutdown successful.");
+
     return CallbackReturn::SUCCESS;
 }
 

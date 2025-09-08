@@ -44,10 +44,7 @@ public:
     void set_target_velocity(uint8_t node_id, float rpm);
     float get_feedback_velocity(uint8_t node_id) const;
     motor_driver::msg::MotorStatus get_status(uint8_t node_id) const;
-    
-    // 알람 기능을 위해 수정된 함수
     std::optional<motor_driver::msg::MotorAlarm> get_alarm(uint8_t node_id);
-
 
     void enable_motor();
     void disable_motor();
